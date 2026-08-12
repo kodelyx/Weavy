@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Weavy Backend Bridge",
+  "version": "0.5.1",
+  "description": "Connects the local Weavy Python backend to the active signed-in Weavy tab.",
+  "permissions": ["debugger", "tabs", "cookies", "alarms"],
+  "host_permissions": [
+    "https://app.weavy.ai/*",
+    "https://api.weavy.ai/*"
+  ],
+  "background": {
+    "service_worker": "bridge.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src ws://127.0.0.1:8765"
+  },
+  "action": {
+    "default_title": "Weavy Backend Bridge",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

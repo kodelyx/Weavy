@@ -1,0 +1,6262 @@
+[
+  {
+    "description": "Use Flux with Image-to-Image and Inpainting to apply your logo to anything",
+    "displayName": "Add Logo",
+    "fullPrice": 4,
+    "icon": null,
+    "id": "e51Br7r0Fk5grRfIXZRb",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "lucataco/flux-in-context",
+    "order": null,
+    "outputTypes": [],
+    "price": 4,
+    "searchText": "add logo  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Animate Your Personalized Text-to-Image Diffusion Models",
+    "displayName": "Animated Diff",
+    "fullPrice": 13,
+    "icon": null,
+    "id": "5I0oLSAqBZxxYAriRxiH",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "lucataco/animate-diff",
+    "order": null,
+    "outputTypes": [],
+    "price": 13,
+    "searchText": "animated diff  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Run any large language model.",
+    "displayName": "Any LLM",
+    "icon": "any_llm",
+    "id": "UngEhPkxIT2o0R769zwK",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": true,
+    "name": "any_llm",
+    "order": 8610,
+    "outputTypes": [
+      "text"
+    ],
+    "privacyPolicyUrl": null,
+    "searchText": "any llm  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Array of elements",
+    "displayName": "Array",
+    "icon": "array",
+    "id": "E4Lo1vBJYlSjvgs0LtcSClone",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 9610,
+    "outputTypes": [
+      "array"
+    ],
+    "searchText": "array  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Analyze audio content and answer questions about what's happening in the audio based on your prompt.",
+    "displayName": "Audio Describer",
+    "icon": "audio_decribe",
+    "id": "170724fd-096b-46a4-b3bb-9aa6ce692be1",
+    "inputTypes": [
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isVerified": true,
+    "name": "fal-ai/audio-understanding",
+    "order": 8730,
+    "outputTypes": [
+      "text"
+    ],
+    "searchText": "audio describer text_tools audio fal audio understanding fal audio describer",
+    "termsUrls": []
+  },
+  {
+    "description": "SwitchX is our flagship video-to-video model that lets you switch anything in a scene while perfectly keeping what matters. Unlike standard video generators, SwitchX uses the original pixels to drive the final output.",
+    "displayName": "Beeble Switch X",
+    "fullPrice": 120,
+    "icon": "beeble",
+    "id": "fh7e8647-d90a-4bad-a845-69fdc102b24j",
+    "inputTypes": [
+      "video",
+      "text",
+      "mask",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "beeble_switchx",
+    "order": 5199,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 120,
+    "privacyPolicyUrl": "https://docs.beeble.ai/legal/privacy-policy",
+    "searchText": "beeble switchx  beeble video vfx compositing relight",
+    "termsUrls": [
+      "https://docs.beeble.ai/legal/api-terms-of-use"
+    ]
+  },
+  {
+    "description": "Composites two layers together using a blend mode of your choice. It takes two inputs \u2014 Front and Back \u2014 and once both are connected, applies the selected blend mode to combine them into a single output.",
+    "displayName": "Blend",
+    "icon": "blend",
+    "id": "blend",
+    "inputTypes": [
+      "image",
+      "video"
+    ],
+    "isLeaf": true,
+    "isNew": true,
+    "isVerified": false,
+    "outputTypes": [
+      "image",
+      "video"
+    ],
+    "searchText": "blend mix overlay composite layer opacity"
+  },
+  {
+    "description": "Blur image",
+    "displayName": "Blur",
+    "icon": "blur",
+    "id": "3w4OpEQntPBVwfbTkFnBClone",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7710,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "blur  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate images using Bria model",
+    "displayName": "Bria",
+    "fullPrice": 6,
+    "icon": "bria",
+    "id": "in2PyMAJHccNr97KRYRR",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "br_text2image",
+    "order": 2010,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 6,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria  ",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "Remove background of image based on Bria",
+    "displayName": "Bria Content-Aware Fill",
+    "fullPrice": 5,
+    "icon": "bria",
+    "id": "pwaiG7PAISawB74q32tx",
+    "inputTypes": [
+      "mask",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "br_objectremove",
+    "order": 3910,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria - content-aware fill  bria removeobject deleteobject",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "\ud83c\udfa8 Fill in masked parts of images with Bria \ud83d\udd8c\ufe0f",
+    "displayName": "Bria Inpaint",
+    "fullPrice": 5,
+    "icon": "bria",
+    "id": "lM22VnK1FAo4kMhXDn1h",
+    "inputTypes": [
+      "mask",
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "br_inpaint",
+    "order": 3310,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria inpaint  bria inpainting",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "Remove background of image based on Bria",
+    "displayName": "Bria Remove Background",
+    "fullPrice": 0.6,
+    "icon": "bria",
+    "id": "w5g3Gd5CCMNc3PMacIq8",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "br_bgrmv",
+    "order": 3710,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 0.6,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria - remove background  bria removebackground",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "Replace the image background using a background prompt or background reference image.",
+    "displayName": "Bria Replace Background",
+    "fullPrice": 2,
+    "icon": "bria",
+    "id": "dqe8X8P0zZB3cm9oTipu",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "br_bgreplace",
+    "order": 4110,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 2,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria replace background  ",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "Upscale videos up to 8K output resolution. Trained on fully licensed and commercially safe data.",
+    "displayName": "Bria Upscale",
+    "fullPrice": 154,
+    "icon": "bria",
+    "id": "f40ecf20-edcd-4adf-bb8a-8ec2b1254d22",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bria/video/increase-resolution",
+    "order": 6760,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 154,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria upscale  ",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "Generate music from a text prompt.",
+    "displayName": "CassetteAI Music Generator",
+    "fullPrice": 3,
+    "icon": "cassetteai",
+    "id": "aa5e1974-8e2c-4778-8fae-8328ba116c2d",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "cassetteai/music-generator",
+    "order": 910,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 3,
+    "searchText": "cassetteai music generator audio music cassetteai cassetteai music music generator",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate sound effects from a text prompt.",
+    "displayName": "CassetteAI Sound Effects Generator",
+    "fullPrice": 2,
+    "icon": "cassetteai",
+    "id": "266307bc-ea16-436d-91e1-f09288f53246",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "cassetteai/sound-effects-generator",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 2,
+    "searchText": "cassetteai sound effects generator audio sound_effects cassetteai cassetteai sound effects sound effects generator",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Channels",
+    "icon": "channels",
+    "id": "yld4gHAgThz7ryeYEMewClone",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 8110,
+    "outputTypes": [
+      "mask"
+    ],
+    "searchText": "channels  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate images with OpenAI's GPT Image 2",
+    "displayName": "ChatGPT Images 2.0",
+    "fullPrice": 9,
+    "icon": "openai",
+    "id": "zeSQQxxjcaVdWWunD60J1",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "gpt_image_1",
+    "order": 630,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 9,
+    "privacyPolicyUrl": null,
+    "searchText": "chatgpt images 2.0  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit images with OpenAI's GPT Image 2",
+    "displayName": "ChatGPT Images 2.0 Edit",
+    "fullPrice": 9,
+    "icon": "openai",
+    "id": "gVM2rcm5yygP8EEtR1os1",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "gpt_image_1_edit",
+    "order": 2600,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 9,
+    "privacyPolicyUrl": null,
+    "searchText": "chatgpt images 2.0 edit  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate natural-sounding speech from text with Google Chirp 3: HD voices.",
+    "displayName": "Chirp 3 HD",
+    "fullPrice": 5,
+    "icon": "google",
+    "id": "587661d0-6985-4570-af8d-d970dd64bb2e",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "chirp-3-hd",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 5,
+    "searchText": "chirp 3 hd chirp chirp 3 chirp 3 hd google tts text to speech voiceover speech ",
+    "termsUrls": []
+  },
+  {
+    "description": "Transcribe speech to text with Google Chirp 3. Best for audio under 1 minute.",
+    "displayName": "Chirp 3 Transcription",
+    "fullPrice": 2,
+    "icon": "google",
+    "id": "08d05c2f-8153-4d00-92ca-68b6fabc72c0",
+    "inputTypes": [
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "chirp-3-transcription",
+    "order": null,
+    "outputTypes": [
+      "text"
+    ],
+    "price": 2,
+    "searchText": "chirp 3 transcription chirp chirp 3 transcribe transcription speech to text stt google ",
+    "termsUrls": []
+  },
+  {
+    "description": "Adjust the colors of an image or video.",
+    "displayName": "Color correction",
+    "icon": "color_correction",
+    "id": "color_correction",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7200,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "color correction  ",
+    "termsUrls": []
+  },
+  {
+    "description": "A palette of solid colors, output as a stacked image and a list of hex codes.",
+    "displayName": "Color palette",
+    "icon": "color_palette",
+    "id": "color_palette",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7100,
+    "outputTypes": [
+      "text",
+      "image"
+    ],
+    "searchText": "color palette  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Compare two inputs with separate outputs",
+    "displayName": "Compare",
+    "icon": "comparison",
+    "id": "comparison",
+    "inputTypes": [
+      "image"
+    ],
+    "isLeaf": true,
+    "isNew": true,
+    "isVerified": false,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 0,
+    "searchText": "compare comparison side-by-side diff"
+  },
+  {
+    "description": "Compose layers of images",
+    "displayName": "Compositor",
+    "icon": "compositor",
+    "id": "72FrqJVgOSWLc2ZqcT0p",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7310,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "compositor  ",
+    "termsUrls": []
+  },
+  {
+    "description": "The image prompt adapter is designed to generate SDXL images with an image prompt as reference ",
+    "displayName": "Control / IPadapter SDXL  ",
+    "fullPrice": 2.5,
+    "icon": null,
+    "id": "DRVOmYeoDux5mt6TIFVc",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "lucataco/ip_adapter-sdxl-face",
+    "order": null,
+    "outputTypes": [],
+    "price": 2.5,
+    "searchText": "control / ipadapter sdxl    ",
+    "termsUrls": []
+  },
+  {
+    "description": "Super-fast, Latent Consistency Model, with img2img, large batching and canny ControlNet",
+    "displayName": "Control / LCM",
+    "fullPrice": 0.2,
+    "icon": null,
+    "id": "fiXQnc1Aya3ULhShbU8n",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/latent-consistency-model",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.2,
+    "searchText": "control / lcm  ",
+    "termsUrls": []
+  },
+  {
+    "description": "\u2728Stable Diffusion 3 w/ \u26a1InstantX's Canny, Pose, and Tile ControlNets\ud83d\uddbc\ufe0f",
+    "displayName": "Control / SD3 controlnets",
+    "fullPrice": 4,
+    "icon": null,
+    "id": "uBMg4k0zeEA5GzeOSU8N",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "zsxkib/sd3-controlnet",
+    "order": null,
+    "outputTypes": [],
+    "price": 4,
+    "searchText": "control / sd3 controlnets  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Multi-controlnet, lora loading, img2img, inpainting",
+    "displayName": "Control / SDXL multi controlnet lora",
+    "fullPrice": 1,
+    "icon": null,
+    "id": "gF2VQyW5B9NMYEiqJovC",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/sdxl-multi-controlnet-lora",
+    "order": null,
+    "outputTypes": [],
+    "price": 1,
+    "searchText": "control / sdxl multi controlnet lora  ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Crop",
+    "icon": "crop",
+    "id": "NjsDLqnq74oPb8J3JnRSClone",
+    "inputTypes": [
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7510,
+    "outputTypes": [
+      "any"
+    ],
+    "searchText": "crop  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Extract depth map of an image using Depth-Anything V2 model",
+    "displayName": "Depth Anything V2",
+    "icon": "depth",
+    "id": "7f47e6ed-6133-474d-a2cb-1fb87cf43e60",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": true,
+    "name": "fal-ai/image-preprocessors/depth-anything/v2",
+    "order": 9020,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "depth anything v2 [depth, z, preprocessor] ",
+    "termsUrls": []
+  },
+  {
+    "description": "SDXL dynavision with ControlNet and LoRA",
+    "displayName": "Dynavision",
+    "fullPrice": 5,
+    "icon": null,
+    "id": "bEsFea4Ac1Qr2kWehQcC",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "weavyai/dynavision",
+    "order": null,
+    "outputTypes": [],
+    "price": 5,
+    "searchText": "dynavision  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Transform audio from one voice to another. Maintain full control over emotion, timing and delivery.",
+    "displayName": "ElevenLabs - Voice Changer",
+    "fullPrice": 4,
+    "icon": "eleven_labs",
+    "id": "53987f60-f6e8-4646-ba80-0d4b01a84388",
+    "inputTypes": [
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "elevenlabs_voice_change",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 4,
+    "searchText": "elevenlabs - voice changer  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Upscale images using Enhancor model",
+    "displayName": "Enhancor Image Upscale",
+    "fullPrice": 36,
+    "icon": "enhancor",
+    "id": "kMH4HnqWscrhz5Haxob4",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "enhancor_upscale",
+    "order": 5070,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 36,
+    "privacyPolicyUrl": "https://www.enhancor.ai/privacy",
+    "searchText": "enhancor image upscale  ",
+    "termsUrls": [
+      "https://www.enhancor.ai/terms"
+    ]
+  },
+  {
+    "description": "Add realism to AI generated people using skin enhancer by Enhancor",
+    "displayName": "Enhancor Realistic Skin",
+    "fullPrice": 36,
+    "icon": "enhancor",
+    "id": "lNH4HnqWscrhz5Haxoc5",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "enhancor_upscale",
+    "order": 5090,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 36,
+    "privacyPolicyUrl": "https://www.enhancor.ai/privacy",
+    "searchText": "enhancor realistic skin  ",
+    "termsUrls": [
+      "https://www.enhancor.ai/terms"
+    ]
+  },
+  {
+    "description": "Export file",
+    "displayName": "Export",
+    "icon": "export",
+    "id": "JyaWOYxm1VCFqfdn6tFi",
+    "inputTypes": [
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 210,
+    "outputTypes": [],
+    "searchText": "export tool upload import ",
+    "termsUrls": []
+  },
+  {
+    "description": "Quickly edit the expression of a face",
+    "displayName": "Expression editor",
+    "fullPrice": 1,
+    "icon": null,
+    "id": "aJex7zfVMOCsp5kqUf64",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/expression-editor",
+    "order": null,
+    "outputTypes": [],
+    "price": 1,
+    "searchText": "expression editor  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Extracts an image for a given frame",
+    "displayName": "Extract Video Frame",
+    "icon": "extract_video_frame",
+    "id": "A6yXk3wGHFDOVkiWzT7AClone",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 8310,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "extract video frame  ",
+    "termsUrls": []
+  },
+  {
+    "description": "automatically align a face ",
+    "displayName": "Face Align",
+    "fullPrice": 0.2,
+    "icon": null,
+    "id": "XqIzoMad5zXM6Z6HMMmn",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "cjwbw/face-align-cog",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.2,
+    "searchText": "face align  ",
+    "termsUrls": []
+  },
+  {
+    "description": "AI model that swaps faces realistically in images",
+    "displayName": "Face Swap",
+    "fullPrice": 0.5,
+    "icon": null,
+    "id": "ea4639ba-79cc-40fa-9488-70788e483acd",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "codeplugtech/face-swap",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 0.5,
+    "searchText": "face swap  ",
+    "termsUrls": []
+  },
+  {
+    "description": "FLUX 2 LoRA Text-to-Image and Image-to-Image.",
+    "displayName": "Flux 2 Dev LoRA",
+    "fullPrice": 4,
+    "icon": "black_forest",
+    "id": "742a41fe-e181-43e4-9860-29f1fe1e0587",
+    "inputTypes": [
+      "lora",
+      "text",
+      "image",
+      "number"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal_flux_2_dev_lora",
+    "order": 640,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "flux 2 dev lora null null",
+    "termsUrls": []
+  },
+  {
+    "description": "Image generation and editing with FLUX.2 [flex] from Black Forest Labs. Features adjustable inference steps and guidance scale for fine-tuned control. Enhanced typography and text rendering capabilities.",
+    "displayName": "Flux 2 Flex",
+    "fullPrice": 14,
+    "icon": "black_forest",
+    "id": "d39a0612-91e0-46c2-aaac-55375a0d983b",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/flux-2-flex",
+    "order": 650,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 14,
+    "privacyPolicyUrl": null,
+    "searchText": "flux 2 flex  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Custom version of Flux 2 Klein 9B with inpaint capability using a mask and a reference image",
+    "displayName": "Flux 2 Inpaint [Klein 9B]",
+    "fullPrice": 10,
+    "icon": "black_forest",
+    "id": "90b2096a-2ff2-4e1e-837c-307523825c89",
+    "inputTypes": [
+      "mask",
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "weavyai/flux-klein-9b-inpaint",
+    "order": 2910,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "searchText": "flux 2 inpaint [klein 9b]  ",
+    "termsUrls": []
+  },
+  {
+    "description": "FLUX.2 [max] delivers state-of-the-art image generation and advanced image editing with exceptional realism, precision, and consistency.",
+    "displayName": "Flux 2 Max",
+    "fullPrice": 10,
+    "icon": "black_forest",
+    "id": "8c203c58-53b1-41e3-9a10-6735e8800457",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/flux-2-max/edit",
+    "order": 2620,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": null,
+    "searchText": "flux 2 max  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Image generation and editing with FLUX.2 [pro] from Black Forest Labs. Optimized for maximum quality, exceptional photorealism and artistic images.",
+    "displayName": "Flux 2 Pro",
+    "fullPrice": 5,
+    "icon": "black_forest",
+    "id": "e1c97d9d-2911-484f-a557-1436c5c9341f",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/flux-2-pro",
+    "order": 640,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "privacyPolicyUrl": null,
+    "searchText": "flux 2 pro  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Continue a video from its final frames with Flux 3.",
+    "displayName": "Flux 3 Extend Video",
+    "fullPrice": 686,
+    "icon": "black_forest",
+    "id": "9e83c824-fdc3-4ce0-9cba-4984b62986f7",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "blackforestlabs/flux-3/extend-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 686,
+    "searchText": "flux 3 extend video  flux flux 3 flux.3 black forest labs bfl video extend extend video",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video from a text prompt, animate an image, or transition between a start and end frame with Flux 3.",
+    "displayName": "Flux 3 Video",
+    "fullPrice": 280,
+    "icon": "black_forest",
+    "id": "5d50765e-0802-468c-a404-e1ccf1a306a8",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "blackforestlabs/flux-3/text-to-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 280,
+    "searchText": "flux 3 video  flux flux 3 flux.3 black forest labs bfl video text to video image to video t2v i2v first last frame",
+    "termsUrls": []
+  },
+  {
+    "description": "Professional edge-guided image generation. Control structure and composition using Canny edge detection",
+    "displayName": "Flux Canny Pro",
+    "fullPrice": 6,
+    "icon": "black_forest",
+    "id": "BdA1FdFhPqzcZH3HG69y",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-canny-pro",
+    "order": 4420,
+    "outputTypes": [],
+    "price": 6,
+    "privacyPolicyUrl": "https://bfl.ai/legal/privacy-policy",
+    "searchText": "flux canny pro  ",
+    "termsUrls": [
+      "https://bfl.ai/legal/terms-of-service",
+      "https://bfl.ai/legal/flux-api-service-terms"
+    ]
+  },
+  {
+    "description": "Canny, depth and soft edge controlnets for Flux.1 Dev",
+    "displayName": "Flux ControlNet & LoRA",
+    "fullPrice": 10,
+    "icon": "black_forest",
+    "id": "qrQN7x97Hd7eaQgx9una",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "xlabs-ai/flux-dev-controlnet",
+    "order": 4410,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "flux controlnet & lora  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Professional depth-aware image generation. Edit images while preserving spatial relationships.",
+    "displayName": "Flux Depth Pro",
+    "fullPrice": 6,
+    "icon": "black_forest",
+    "id": "YdQpA0fyF12Oz7xMH7Yz",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-depth-pro",
+    "order": 4430,
+    "outputTypes": [],
+    "price": 6,
+    "privacyPolicyUrl": "https://bfl.ai/legal/privacy-policy",
+    "searchText": "flux depth pro  ",
+    "termsUrls": [
+      "https://bfl.ai/legal/terms-of-service",
+      "https://bfl.ai/legal/flux-api-service-terms"
+    ]
+  },
+  {
+    "description": "FLUX LoRA Text-to-Image and Image-to-Image.",
+    "displayName": "Flux Dev LoRA",
+    "fullPrice": 4,
+    "icon": "black_forest",
+    "id": "gDeCVy6zcw6nSv0Mzm3W",
+    "inputTypes": [
+      "image",
+      "lora",
+      "text",
+      "number"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal_flux_multilora",
+    "order": 1410,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "flux dev lora  ",
+    "termsUrls": []
+  },
+  {
+    "description": "FLUX LoRA Text-to-Image and Image-to-Image.",
+    "displayName": "Flux Dev LoRA Inpaint",
+    "fullPrice": 4,
+    "icon": "black_forest",
+    "id": "gDeCVy6zcw6nSv0Mzm2U",
+    "inputTypes": [
+      "mask",
+      "image",
+      "lora",
+      "text",
+      "number"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal_flux_multilora_inpaint",
+    "order": 2920,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "flux dev lora inpaint  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Open-weight image variation model. Create new versions while preserving key elements of your original.",
+    "displayName": "Flux Dev Redux",
+    "fullPrice": 3,
+    "icon": "black_forest",
+    "id": "xJEu0tIwdbzWpFsUdQNe",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-redux-dev",
+    "order": 4310,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 3,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "flux dev redux  ",
+    "termsUrls": []
+  },
+  {
+    "description": "The fastest image generation model tailored for local development and personal use",
+    "displayName": "Flux Fast",
+    "fullPrice": 0.4,
+    "icon": "black_forest",
+    "id": "zE9WAgeGgEYnZmIspEGn",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-schnell",
+    "order": 1310,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 0.4,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "flux fast  ",
+    "termsUrls": []
+  },
+  {
+    "description": "A premium text-based image editing model that delivers maximum performance and improved typography generation for transforming images through natural language prompts",
+    "displayName": "Flux Kontext",
+    "fullPrice": 3,
+    "icon": "black_forest",
+    "id": "gd173306-e0c5-41af-9b29-a404b80e4613",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "flux-kontext",
+    "order": 2710,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 3,
+    "privacyPolicyUrl": null,
+    "searchText": "flux kontext [\"flux\"] ",
+    "termsUrls": []
+  },
+  {
+    "description": "Fast endpoint for the FLUX.1 Kontext [dev] model with LoRA support, enabling rapid and high-quality image editing using pre-trained LoRA adaptations for specific styles, brand identities, and product-specific outputs.",
+    "displayName": "Flux Kontext LoRA",
+    "fullPrice": 12,
+    "icon": "black_forest",
+    "id": "ef2e9035-0905-49d9-b8a1-0e0de3d72362",
+    "inputTypes": [
+      "image",
+      "lora",
+      "text",
+      "number"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal_flux_kontext_lora",
+    "order": 2720,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 12,
+    "privacyPolicyUrl": null,
+    "searchText": "flux kontext lora  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Two reference image input for Flux Kontext pro",
+    "displayName": "Flux Kontext Multi Image",
+    "fullPrice": 10,
+    "icon": "black_forest",
+    "id": "167894b0-37a1-4bd0-b189-7ec245f342b6",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "flux-kontext-apps/multi-image-kontext-max",
+    "order": 2720,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "flux kontext multi image [\"flux\"] ",
+    "termsUrls": []
+  },
+  {
+    "description": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+    "displayName": "Flux Pro 1.1",
+    "fullPrice": 5,
+    "icon": "black_forest",
+    "id": "l7FCkacqk0zPmkVTtbt9",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-1.1-pro",
+    "order": 1210,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "privacyPolicyUrl": "https://bfl.ai/legal/privacy-policy",
+    "searchText": "flux pro 1.1  ",
+    "termsUrls": [
+      "https://bfl.ai/legal/terms-of-service",
+      "https://bfl.ai/legal/flux-api-service-terms"
+    ]
+  },
+  {
+    "description": "FLUX1.1 [pro] in ultra and raw modes. Images are up to 4 megapixels. Use raw mode for realism.",
+    "displayName": "Flux Pro 1.1 Ultra",
+    "fullPrice": 7,
+    "icon": "black_forest",
+    "id": "rp8wcsp5ViyuITMAdemY",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-1.1-pro-ultra",
+    "order": 1110,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 7,
+    "privacyPolicyUrl": "https://bfl.ai/legal/privacy-policy",
+    "searchText": "flux pro 1.1 ultra  ",
+    "termsUrls": [
+      "https://bfl.ai/legal/terms-of-service",
+      "https://bfl.ai/legal/flux-api-service-terms"
+    ]
+  },
+  {
+    "description": "Professional outpainting model with state-of-the-art performance. Extend images with natural, seamless results.",
+    "displayName": "Flux Pro Outpaint",
+    "fullPrice": 6,
+    "icon": "black_forest",
+    "id": "v6ivwh6HSko2SMwqTzdx",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "black-forest-labs/flux-fill-pro",
+    "order": 3410,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 6,
+    "privacyPolicyUrl": "https://bfl.ai/legal/privacy-policy",
+    "searchText": "flux pro outpaint  ",
+    "termsUrls": [
+      "https://bfl.ai/legal/terms-of-service",
+      "https://bfl.ai/legal/flux-api-service-terms"
+    ]
+  },
+  {
+    "description": "This models allow changing the strength of the Redux image prompt, which allows the text prompt to have a stronger effect. It is particularly useful at taking content from the provided image and applying style or editing changes from the prompt.",
+    "displayName": "Flux Redux Controlnet",
+    "fullPrice": 20,
+    "icon": null,
+    "id": "EobKo0Cui9qLYa1HQVGE",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "jhorovitz/flux-dev-redux-control",
+    "order": null,
+    "outputTypes": [],
+    "price": 20,
+    "searchText": "flux redux controlnet  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate expressive, natural-sounding speech from text with Google Gemini 3.1 Flash TTS. Steer accent, pace, tone and emotion with a style prompt.",
+    "displayName": "Gemini 3.1 Flash TTS",
+    "fullPrice": 4,
+    "icon": "gemini",
+    "id": "90166371-b651-47bb-a009-aa90b1023065",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "gemini-3.1-flash-tts",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 4,
+    "searchText": "gemini 3.1 flash tts gemini gemini tts gemini 3.1 flash tts google tts text to speech voiceover speech ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video with synchronized audio from a text prompt, or animate a still image. Grounded in Gemini's real-world knowledge with improved physics understanding.",
+    "displayName": "Gemini Omni Flash",
+    "fullPrice": 100,
+    "icon": "gemini",
+    "id": "1b692dfa-56f4-4e15-b668-6f24cfcf06d1",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google/gemini-omni-flash",
+    "order": 4600,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 100,
+    "searchText": "gemini omni flash  google gemini video text-to-video image-to-video",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video from a prompt plus reference images or videos. Runs on Google directly for true reference support.",
+    "displayName": "Gemini Omni Flash Reference to Video",
+    "fullPrice": 37,
+    "icon": "gemini",
+    "id": "7ae9666e-bd6f-43a2-a711-1be889b72e91",
+    "inputTypes": [
+      "text",
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google/gemini-omni-flash-preview/reference-to-video",
+    "order": 4606,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 37,
+    "searchText": "gemini omni flash reference to video  google gemini video reference-to-video multi-image",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit a video with a natural-language instruction across multiple conversational turns while preserving scene coherence.",
+    "displayName": "Gemini Omni Flash Video Edit",
+    "fullPrice": 360,
+    "icon": "gemini",
+    "id": "66d46fac-6fb4-4850-87db-bdb98e1eccab",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google/gemini-omni-flash/edit",
+    "order": 4600,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 360,
+    "searchText": "gemini omni flash video edit  google gemini video edit",
+    "termsUrls": []
+  },
+  {
+    "description": "Prompt to generate your own gen effect node.",
+    "displayName": "Gen Effect",
+    "icon": "custom_glsl",
+    "id": "custom_glsl",
+    "isLeaf": true,
+    "isNew": true,
+    "isVerified": false,
+    "price": 0,
+    "searchText": "custom effect glsl shader ai prompt filter pixel"
+  },
+  {
+    "description": "Edit videos using xAI's Grok Imagine",
+    "displayName": "Grok Imagine - Video edit",
+    "fullPrice": 50,
+    "icon": "grok",
+    "id": "2e6c36f8-b1d5-46b7-b0e5-2ca43ceea5e5",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "xai/grok-imagine-video/edit-video",
+    "order": 5120,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 50,
+    "searchText": "grok imagine - video edit  grok x video",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate videos from images with audio using xAI's Grok Imagine Video model.",
+    "displayName": "Grok Imagine Video",
+    "fullPrice": 36,
+    "icon": "grok",
+    "id": "afb4ec7b-afe3-4348-bd8d-f0a7d7f7c7a8",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "xai/grok-imagine-video/image-to-video",
+    "order": 4650,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 36,
+    "privacyPolicyUrl": null,
+    "searchText": "grok imagine video  grok x video",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate videos from a text prompt, an image, or both.",
+    "displayName": "Happy Horse",
+    "fullPrice": 210,
+    "icon": "alibaba",
+    "id": "033764ee-44af-41e5-bacf-179b3d3741ce",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "alibaba/happy-horse/image-to-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 210,
+    "searchText": "happy horse  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Happy Horse supports advanced video editing through natural language instructions",
+    "displayName": "Happy Horse Edit",
+    "fullPrice": 252,
+    "icon": "alibaba",
+    "id": "9934bca0-a21e-46cb-98e2-2ff4ca67ac4f",
+    "inputTypes": [
+      "text",
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "alibaba/happy-horse/video-edit",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 252,
+    "searchText": "happy horse edit  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate videos with synchronized native audio from a text prompt and references",
+    "displayName": "Happy Horse Reference",
+    "fullPrice": 210,
+    "icon": "alibaba",
+    "id": "dcef8e08-c917-48d0-ab53-3c21afecb8f1",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "alibaba/happy-horse/reference-to-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 210,
+    "searchText": "happy horse reference  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Create natural HeyGen Avatar V digital twin videos from text or audio, with lip-sync, optional backgrounds, captions, and MP4/WebM output.",
+    "displayName": "HeyGen Avatar 5",
+    "fullPrice": 84,
+    "icon": "heygen",
+    "id": "5e6c8cb5-736c-492c-97f9-df2483015a4c",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/heygen/avatar5/digital-twin",
+    "order": 7130,
+    "outputTypes": [],
+    "price": 84,
+    "searchText": "heygen avatar 5  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Create natural HeyGen Avatar V digital twin videos from text or audio, with lip-sync, optional backgrounds, captions, and MP4/WebM output.",
+    "displayName": "HeyGen Avatar 5 Lip Sync",
+    "fullPrice": 84,
+    "icon": "heygen",
+    "id": "85734cf1-13a3-44c2-9fff-381c606e8b12",
+    "inputTypes": [
+      "audio",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/heygen/avatar5/digital-twin",
+    "order": null,
+    "outputTypes": [],
+    "price": 84,
+    "searchText": "heygen avatar 5 lip sync  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Higgsfield's image generation model",
+    "displayName": "Higgsfield Image",
+    "fullPrice": 21,
+    "icon": "higgsfield",
+    "id": "jLH4HnqWscrhz5Haxoa4",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "higgsfield_t2i",
+    "order": 680,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 21,
+    "privacyPolicyUrl": "https://higgsfield.ai/privacy-policy",
+    "searchText": "higgsfield image  ",
+    "termsUrls": [
+      "https://higgsfield.ai/terms-of-use-agreement"
+    ]
+  },
+  {
+    "description": "Generate video from an image and a prompt",
+    "displayName": "Higgsfield Video",
+    "fullPrice": 45,
+    "icon": "higgsfield",
+    "id": "xofmbl8VwUCfX2a1Xcgj",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "higgsfield_i2v",
+    "order": 4940,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 45,
+    "privacyPolicyUrl": "https://higgsfield.ai/privacy-policy",
+    "searchText": "higgsfield video  higgs video",
+    "termsUrls": [
+      "https://higgsfield.ai/terms-of-use-agreement"
+    ]
+  },
+  {
+    "description": "A state-of-the-art text-to-video generation model capable of creating high-quality videos with realistic motion from text descriptions.",
+    "displayName": "Hunyuan",
+    "fullPrice": 60,
+    "icon": "tencent",
+    "id": "qRL5jPjViDpvDomCwIEm",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "tencent/hunyuan-video",
+    "order": 6210,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 60,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "hunyuan  tencent video",
+    "termsUrls": [
+      "https://huggingface.co/tencent/HunyuanVideo/blob/main/LICENSE"
+    ]
+  },
+  {
+    "description": "Tencent's Diffusion Model for High Resolution Textured 3D Assets Generation",
+    "displayName": "Hunyuan 3D V2.0",
+    "fullPrice": 18,
+    "icon": "tencent",
+    "id": "ec76dee0-e4d6-4cad-9c27-669d5344f719",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "tencent/hunyuan3d-2mv",
+    "order": 7050,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "hunyuan 3d v2.0  tencent",
+    "termsUrls": [
+      "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/LICENSE#L1"
+    ]
+  },
+  {
+    "description": "Hunyuan3D-2.1 is a scalable 3D asset creation system that advances state-of-the-art 3D generation through Physically-Based Rendering (PBR).",
+    "displayName": "Hunyuan 3D V2.1",
+    "fullPrice": 25,
+    "icon": "tencent",
+    "id": "d4242526-a5a0-4831-98e3-be001d89a8e2",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/hunyuan3d-v21",
+    "order": 7040,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 25,
+    "privacyPolicyUrl": null,
+    "searchText": "hunyuan 3d v2.1  tencent 3d",
+    "termsUrls": []
+  },
+  {
+    "description": "Transform your photos into ultra-high-resolution 3D models in seconds. Film-quality geometry with PBR textures, ready for games, e-commerce, and 3D printing.",
+    "displayName": "Hunyuan 3D V3",
+    "fullPrice": 80,
+    "icon": "tencent",
+    "id": "8588479b-dd61-4db8-b462-57cdfe92f698",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fal-ai/hunyuan3d-v3/image-to-3d",
+    "order": 7030,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 80,
+    "privacyPolicyUrl": "https://fal.ai/privacy",
+    "searchText": "hunyuan 3d v3  tencent 3d",
+    "termsUrls": [
+      "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/LICENSE#L1"
+    ]
+  },
+  {
+    "description": "Video-to-video using Hunyuan open-source video generation model.",
+    "displayName": "Hunyuan Video to Video",
+    "fullPrice": 60,
+    "icon": "tencent",
+    "id": "75VDhM0Tpj6fb56XxdJ9",
+    "inputTypes": [
+      "video",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-hunyuan-v2v",
+    "order": 6610,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 60,
+    "privacyPolicyUrl": null,
+    "searchText": "hunyuan video to video  tencent video",
+    "termsUrls": []
+  },
+  {
+    "description": "\u26a1\ufe0fFLUX PuLID: FLUX-dev based Pure and Lightning ID Customization via Contrastive Alignment\ud83c\udfad",
+    "displayName": "ID preservation - Flux",
+    "fullPrice": 3,
+    "icon": null,
+    "id": "2SIrun9CyVnTdlAOnPYd",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "zsxkib/flux-pulid",
+    "order": null,
+    "outputTypes": [],
+    "price": 3,
+    "searchText": "id preservation - flux  ",
+    "termsUrls": []
+  },
+  {
+    "description": "\ud83c\udfa8 Fill in masked parts of images with Ideogram V2 \ud83d\udd8c\ufe0f",
+    "displayName": "Ideogram V2 Inpaint",
+    "fullPrice": 10,
+    "icon": "ideogram",
+    "id": "6YT2HAnPDrq4vqB8OW74",
+    "inputTypes": [
+      "mask",
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "ideogram-ai/ideogram-v2",
+    "order": 3110,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": "https://ideogram.ai/legal/privacy",
+    "searchText": "ideogram v2 inpaint  ",
+    "termsUrls": [
+      "https://ideogram.ai/legal/api-tos"
+    ]
+  },
+  {
+    "description": "The highest quality Ideogram v3 model.",
+    "displayName": "Ideogram V3",
+    "fullPrice": 4,
+    "icon": "ideogram",
+    "id": "kfIMhfCO5bUbiiaQGcr7",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "ig_v3",
+    "order": 1610,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "ideogram v3  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate consistent character appearances across multiple images. Maintain facial features, proportions, and distinctive traits for cohesive storytelling and branding",
+    "displayName": "Ideogram V3 Character",
+    "fullPrice": 10,
+    "icon": "ideogram",
+    "id": "mfIMhfCO5bUbiiaQGcs8",
+    "inputTypes": [
+      "mask",
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "ig_v3_character",
+    "order": 1710,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": null,
+    "searchText": "ideogram v3 character  ",
+    "termsUrls": []
+  },
+  {
+    "description": "The highest quality Ideogram v3 model.",
+    "displayName": "Ideogram V3 Inpaint",
+    "fullPrice": 11,
+    "icon": "ideogram",
+    "id": "ifIMhfCO5bUbiiaQGcq5Clone",
+    "inputTypes": [
+      "mask",
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "ideogram-ai/ideogram-v3-quality",
+    "order": 3010,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 11,
+    "privacyPolicyUrl": "https://ideogram.ai/legal/privacy",
+    "searchText": "ideogram v3 inpaint  ",
+    "termsUrls": [
+      "https://ideogram.ai/legal/api-tos"
+    ]
+  },
+  {
+    "description": "Generate high-quality images, posters, and logos with Ideogram's latest V4 \u2014 producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, ready-to-use designs.",
+    "displayName": "Ideogram V4",
+    "fullPrice": 9,
+    "icon": "ideogram",
+    "id": "b041216b-1e1c-482e-8093-6d2bdcd5bce3",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "ideogram/v4",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 9,
+    "searchText": "ideogram v4  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Describes an image",
+    "displayName": "Image Describer",
+    "icon": "image_decribe",
+    "id": "QmgEhPkxIT2o0R769yvK",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": true,
+    "name": "any_llm",
+    "order": 8710,
+    "outputTypes": [
+      "text"
+    ],
+    "privacyPolicyUrl": null,
+    "searchText": "image describer  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Iterate over a list of images",
+    "displayName": "Image Iterator",
+    "icon": "image-iterator",
+    "id": "image_iterator",
+    "inputTypes": [],
+    "isLeaf": true,
+    "isVerified": false,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 0,
+    "searchText": "image-iterator iterator image"
+  },
+  {
+    "description": "Text2Img, Img2Img and Inpainting\n",
+    "displayName": "Image Model / dreamshaper-v8",
+    "fullPrice": 2,
+    "icon": null,
+    "id": "Un2UYZuRlVmUFLSHs84m",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "asiryan/dreamshaper_v8",
+    "order": null,
+    "outputTypes": [],
+    "price": 2,
+    "searchText": "image model / dreamshaper-v8  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Photorealistic model",
+    "displayName": "Image Model / Realistic Vision v5.1",
+    "fullPrice": 0.2,
+    "icon": null,
+    "id": "Q6frBXoYWq9OCsmUBAKO",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "lucataco/realistic-vision-v5.1",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.2,
+    "searchText": "image model / realistic vision v5.1  ",
+    "termsUrls": []
+  },
+  {
+    "description": "A model for experimenting with all the SD3 settings",
+    "displayName": "Image Model / SD3 explorer",
+    "fullPrice": 0.6,
+    "icon": null,
+    "id": "tlr7tSCloTPmUze1MU7G",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/sd3-explorer",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.6,
+    "searchText": "image model / sd3 explorer  ",
+    "termsUrls": []
+  },
+  {
+    "description": "very quick SDXL model",
+    "displayName": "Image Model / SDXL lightning 4step",
+    "fullPrice": 2,
+    "icon": null,
+    "id": "SeSV2VTSnZEohTH6KAKO",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "bytedance/sdxl-lightning-4step",
+    "order": null,
+    "outputTypes": [],
+    "price": 2,
+    "searchText": "image model / sdxl lightning 4step  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Creates a new image based on prompt and reference image",
+    "displayName": "Image To Image",
+    "fullPrice": 10,
+    "icon": "stability_ai",
+    "id": "pdNcnzKJsrOQ4XhbwIul",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sd_img2img",
+    "order": 4510,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": null,
+    "searchText": "image to image  ",
+    "termsUrls": []
+  },
+  {
+    "description": "clarity-upscaler, alternative to magic upscaler ",
+    "displayName": "Image Upscale / Clarity",
+    "fullPrice": 2,
+    "icon": null,
+    "id": "1qYW4dNMRDIjEu5Yi5Rk",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "philz1337x/clarity-upscaler",
+    "order": null,
+    "outputTypes": [],
+    "price": 2,
+    "searchText": "image upscale / clarity  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Real-ESRGAN with optional face correction and adjustable upscale",
+    "displayName": "Image Upscale / Real-ESRGAN",
+    "fullPrice": 0.3,
+    "icon": null,
+    "id": "SeV3xgeqgpZYmyHgQ205",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "nightmareai/real-esrgan",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.3,
+    "searchText": "image upscale / real-esrgan  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Ultimate SD Upscale with ControlNet Tile",
+    "displayName": "Image Upscale / Ultimate SD upscale",
+    "fullPrice": 11,
+    "icon": null,
+    "id": "ezunFseB6bWQr8vSvDKf",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fewjative/ultimate-sd-upscale",
+    "order": null,
+    "outputTypes": [],
+    "price": 11,
+    "searchText": "image upscale / ultimate sd upscale  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Google's highest quality text-to-image model, capable of generating images with detail, rich lighting and beauty",
+    "displayName": "Imagen 3",
+    "fullPrice": 4.5,
+    "icon": "google",
+    "id": "hKH4HnqWscrhz5Haxoz2",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google/imagen-3",
+    "order": 910,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4.5,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "google imagen 3  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Google's fast text-to-image model, capable of generating images with detail, rich lighting and beauty",
+    "displayName": "Imagen 3 Fast",
+    "fullPrice": 3,
+    "icon": "google",
+    "id": "AuvTfgsXzm0jprXvzX4i",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google/imagen-3-fast",
+    "order": 1010,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 3,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "google imagen 3 fast  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Google\u2019s highest quality image generation model",
+    "displayName": "Imagen 4",
+    "fullPrice": 6,
+    "icon": "google",
+    "id": "iKH4HnqWscrhz5Haxoz3",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "imagen4",
+    "order": 810,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 6,
+    "privacyPolicyUrl": null,
+    "searchText": "google imagen 4  ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Import",
+    "icon": "import",
+    "id": "wkKkBSd0yrZGwbStnU6rClone",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 110,
+    "outputTypes": [
+      "any"
+    ],
+    "searchText": "file tool upload import ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Import LoRA",
+    "icon": "import_lora",
+    "id": "UFI7BzaClSwt0kWYcPXfFufIcClone",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 510,
+    "outputTypes": [
+      "lora"
+    ],
+    "searchText": "import lora tool upload import ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Import Multiple LoRAs",
+    "icon": "multi_lora",
+    "id": "MAex3aXoXFNntex5xHRS",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 610,
+    "outputTypes": [],
+    "searchText": "import multiple loras tool upload import ",
+    "termsUrls": []
+  },
+  {
+    "description": "Frame Interpolation",
+    "displayName": "Increase Frame-rate",
+    "fullPrice": 11,
+    "icon": null,
+    "id": "9I9b1pZiHm81k7XQuiGt",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "zsxkib/st-mfnet",
+    "order": null,
+    "outputTypes": [],
+    "price": 11,
+    "searchText": "increase frame-rate  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Invert the colors of the input image",
+    "displayName": "Invert",
+    "icon": "invert",
+    "id": "58hF2wOPbFLhWtujOwU7Clone",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7810,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "invert  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate 5s and 10s videos in 1080p resolution",
+    "displayName": "Kling 1.6",
+    "fullPrice": 18,
+    "icon": "kling",
+    "id": "27e28f52-066b-46ce-a953-68d49aa75411",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "kling_16",
+    "order": 5400,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": null,
+    "searchText": "kling 1.6  kling video",
+    "termsUrls": []
+  },
+  {
+    "description": "Kling 3.0 Pro: Top-tier image-to-video with cinematic visuals, fluid motion, and native audio generation, with custom element support.",
+    "displayName": "Kling 3",
+    "fullPrice": 82,
+    "icon": "kling",
+    "id": "f3220409-436a-4585-b3d3-adca16f4db19",
+    "inputTypes": [
+      "image",
+      "text",
+      "kling-element"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "kling",
+    "order": 5390,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 82,
+    "privacyPolicyUrl": null,
+    "searchText": "kling 3  kling video",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video from an image and a prompt",
+    "displayName": "Kling 3.0 Turbo",
+    "fullPrice": 60,
+    "icon": "kling",
+    "id": "8a789246-42cd-4314-b32a-f06994638c16",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "kling-3-turbo",
+    "order": 4630,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 60,
+    "searchText": "kling 3.0 turbo  kling turbo 3.0 video",
+    "termsUrls": []
+  },
+  {
+    "description": "Kling AI Avatar Pro: The premium endpoint for creating avatar videos with realistic humans, animals, cartoons, or stylized characters",
+    "displayName": "Kling AI Avatar",
+    "fullPrice": 253,
+    "icon": "kling",
+    "id": "7578ffd8-a5f4-4afe-9922-ff3a30799d46",
+    "inputTypes": [
+      "text",
+      "audio",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/kling-video/v1/pro/ai-avatar",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 253,
+    "privacyPolicyUrl": null,
+    "searchText": "kling ai avatar pro  lip sync avatar",
+    "termsUrls": []
+  },
+  {
+    "description": "Provide structured element data for the Kling model",
+    "displayName": "Kling Element",
+    "icon": "kling",
+    "id": "kling_element",
+    "inputTypes": [
+      "image"
+    ],
+    "isLeaf": true,
+    "isVerified": false,
+    "outputTypes": [
+      "kling-element"
+    ],
+    "price": 0,
+    "searchText": "kling element reference frontal image"
+  },
+  {
+    "description": "Generate video from an image and a prompt",
+    "displayName": "Kling First & Last Frame",
+    "fullPrice": 55,
+    "icon": "kling",
+    "id": "85caf705-a459-48dd-96cd-953a04b4c08e",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "kling",
+    "order": 5410,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 55,
+    "privacyPolicyUrl": null,
+    "searchText": "kling first & last frame  kling video",
+    "termsUrls": []
+  },
+  {
+    "description": "Add lip-sync to any video with an audio file or text",
+    "displayName": "Kling lip-sync",
+    "fullPrice": 10,
+    "icon": null,
+    "id": "2a889770-82f1-49de-b772-c58cf764ad05",
+    "inputTypes": [
+      "text",
+      "video",
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "kwaivgi/kling-lip-sync",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 10,
+    "searchText": "kling lip-sync  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Transfer movements from a reference video to any character image. Pro mode delivers higher quality output, ideal for complex dance moves and gestures.",
+    "displayName": "Kling Motion Control",
+    "fullPrice": 164,
+    "icon": "kling",
+    "id": "333a7b7a-b636-47a6-844f-b8c97cef4230",
+    "inputTypes": [
+      "text",
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/kling-video/v2.6/pro/motion-control",
+    "order": 5150,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 164,
+    "privacyPolicyUrl": null,
+    "searchText": "kling motion control  kling video",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit an existing video using natural-language instructions, transforming subjects, settings, and style while retaining the original motion structure.",
+    "displayName": "Kling o1 Edit Video",
+    "fullPrice": 147,
+    "icon": "kling",
+    "id": "c1692bac-c656-4c66-a5b2-9e2081c85507",
+    "inputTypes": [
+      "text",
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/kling-video/o1/video-to-video/edit",
+    "order": 5160,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 147,
+    "privacyPolicyUrl": null,
+    "searchText": "kling o1 edit video  kling video edit",
+    "termsUrls": []
+  },
+  {
+    "description": "Kling O1 Omni generates new shots guided by an input reference video, preserving cinematic language such as motion, and camera style to produce seamless scene continuity.",
+    "displayName": "Kling o1 Reference Video to Video",
+    "fullPrice": 82,
+    "icon": "kling",
+    "id": "55653c5c-f286-4eef-bc89-e33938837305",
+    "inputTypes": [
+      "text",
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/kling-video/o1/video-to-video/reference",
+    "order": 5180,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 82,
+    "privacyPolicyUrl": null,
+    "searchText": "kling o1 reference video to video  kling video omni",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit videos using Kling O3 from Kling",
+    "displayName": "Kling o3 Edit Video",
+    "fullPrice": 164,
+    "icon": "kling",
+    "id": "eb61b10e-6d20-42a1-b8a9-bf25fb331518",
+    "inputTypes": [
+      "text",
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/kling-video/o3/pro/video-to-video/edit",
+    "order": 5140,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 164,
+    "searchText": "kling o3 edit video  kling video edit omni",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video from an image and a prompt",
+    "displayName": "Kling Video",
+    "fullPrice": 34,
+    "icon": "kling",
+    "id": "wnfmbl8VwUCfX2a1XcdfDlone",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "kling",
+    "order": 5410,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 34,
+    "privacyPolicyUrl": null,
+    "searchText": "kling video  kling video",
+    "termsUrls": []
+  },
+  {
+    "description": "Kling Kolors Virtual TryOn v1.5 is a high quality image based Try-On endpoint which can be used for commercial try on.",
+    "displayName": "Kolors Virtual Try On",
+    "fullPrice": 8,
+    "icon": "kling",
+    "id": "wbrrGdjmwpbtgsTrs0xH",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "kolors-vto",
+    "order": 4010,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 8,
+    "privacyPolicyUrl": null,
+    "searchText": "kolors virtual try-on  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate high-fidelity images from text with Krea 2. Choose Large for max fidelity or Medium for speed; supports aspect ratio, creativity, seed, and optional style references.",
+    "displayName": "Krea 2",
+    "fullPrice": 10,
+    "icon": "krea",
+    "id": "c1a9a81f-75ef-442c-836b-133a80b099b8",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "krea/v2/large/text-to-image",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "searchText": "krea 2  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Color grading node for images",
+    "displayName": "Levels",
+    "icon": "levels",
+    "id": "levels",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": false,
+    "order": 7300,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "levels  ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "List Selector",
+    "icon": "mux",
+    "id": "K4Bi14QsmaOKQMHpZstoClone",
+    "inputTypes": [
+      "array"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 9410,
+    "outputTypes": [
+      "text"
+    ],
+    "searchText": "list  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Extend a video at the start or end with LTX 2.3.",
+    "displayName": "LTX 2.3 Extend Video",
+    "fullPrice": 40,
+    "icon": "ltx",
+    "id": "5598de36-b356-4367-b97f-2a6eeeecd7f3",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/ltx-2.3/extend-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 40,
+    "searchText": "ltx 2.3 extend video  ltx ltx 2.3 lightricks video extend extend video",
+    "termsUrls": []
+  },
+  {
+    "description": "Reframe a video to a new aspect ratio without cropping.",
+    "displayName": "LTX 2.3 Reframe",
+    "fullPrice": 16,
+    "icon": "ltx",
+    "id": "4f1e5f21-2064-4c77-b209-2aef053fe72c",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/ltx-2.3/reframe",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 16,
+    "searchText": "ltx 2.3 reframe  ltx ltx 2.3 lightricks video reframe aspect ratio crop",
+    "termsUrls": []
+  },
+  {
+    "description": "Regenerate a segment of a video with LTX 2.3.",
+    "displayName": "LTX 2.3 Retake Video",
+    "fullPrice": 40,
+    "icon": "ltx",
+    "id": "3a264dbb-2f4d-4313-9757-bdc94c87efb1",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fal-ai/ltx-2.3/retake-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 40,
+    "searchText": "ltx 2.3 retake video  ltx ltx 2.3 lightricks video retake regenerate",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video from a text prompt, or animate an image, with LTX 2.3.",
+    "displayName": "LTX 2.3 Video",
+    "fullPrice": 48,
+    "icon": "ltx",
+    "id": "f8830cd2-9bd6-406d-84f4-85ad83076ad7",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/ltx-2.3/text-to-video",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 48,
+    "searchText": "ltx 2.3 video  ltx ltx 2.3 lightricks video text to video image to video t2v i2v",
+    "termsUrls": []
+  },
+  {
+    "description": "Turn a 3D / CG / game render into a photorealistic video. Feed in your render and LTX-2.3 re-renders it with realistic lighting, materials, and detail (optionally anchored to a first-frame reference image).",
+    "displayName": "LTX Render to Real",
+    "fullPrice": 54,
+    "icon": "ltx",
+    "id": "6a5f7fc9-ab9a-47c0-a429-d6fb942e57ad",
+    "inputTypes": [
+      "text",
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/ltx-2.3-quality/render-to-real",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 54,
+    "searchText": "ltx render to real  ltx lightricks render to real 3d to real cg to real photoreal render video_to_video render-to-real 3dreal",
+    "termsUrls": []
+  },
+  {
+    "description": "Transform any video with precise control over motion, style, and environment. Preserve natural movement and facial expressions while changing everything else \u2014 from animation style and wardrobe to backgrounds and weather. Edit specific elements or add dynamic effects like smoke, fire, and water.",
+    "displayName": "Luma Modify",
+    "fullPrice": 210,
+    "icon": "luma",
+    "id": "feac3e8e-abbc-4099-8444-eb34fc7d79fg",
+    "inputTypes": [
+      "text",
+      "video",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "luma_video_modify",
+    "order": 6410,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 210,
+    "privacyPolicyUrl": null,
+    "searchText": "luma modify  ",
+    "termsUrls": []
+  },
+  {
+    "description": "High-quality image generation model optimized for creative professional workflows and ultra-high fidelity outputs.",
+    "displayName": "Luma Photon",
+    "fullPrice": 2,
+    "icon": "luma",
+    "id": "AVvrPuuAODJ2oWTe1Y7o",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "luma/photon",
+    "order": 2210,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 2,
+    "privacyPolicyUrl": "https://lumalabs.ai/legal/privacy",
+    "searchText": "luma photon  ",
+    "termsUrls": [
+      "https://lumalabs.ai/api/terms"
+    ]
+  },
+  {
+    "description": "Generate 5s and 9s 720p videos",
+    "displayName": "Luma Ray 2",
+    "fullPrice": 108,
+    "icon": "luma",
+    "id": "a5489a04-0bef-4455-9f36-7d77c373fe12",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "luma/ray-2-720p",
+    "order": 6010,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 108,
+    "privacyPolicyUrl": "https://lumalabs.ai/legal/privacy",
+    "searchText": "luma ray 2  luma video",
+    "termsUrls": [
+      "https://lumalabs.ai/api/terms"
+    ]
+  },
+  {
+    "description": "Generate 5s and 9s 720p videos, faster and cheaper than Ray 2",
+    "displayName": "Luma Ray 2 Flash",
+    "fullPrice": 36,
+    "icon": "luma",
+    "id": "ff857174-b77d-4b9b-8634-e46008f28db3",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "luma/ray-flash-2-720p",
+    "order": 6110,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 36,
+    "privacyPolicyUrl": "https://lumalabs.ai/legal/privacy",
+    "searchText": "luma ray 2 flash  luma video",
+    "termsUrls": [
+      "https://lumalabs.ai/api/terms"
+    ]
+  },
+  {
+    "description": "Generate video from a text prompt, with optional start/end anchor images for image-to-video.",
+    "displayName": "Luma Ray 3.2",
+    "fullPrice": 45,
+    "icon": "luma",
+    "id": "25535a67-c9ba-43a8-8e3a-184082d24464",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "luma/ray-3-2",
+    "order": 4642,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 45,
+    "searchText": "luma ray 3.2  luma video ray",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit an existing video from a text prompt while preserving its structure and motion.",
+    "displayName": "Luma Ray 3.2 Video Edit",
+    "fullPrice": 324,
+    "icon": "luma",
+    "id": "b3dcf352-8e82-4be3-9162-a2239ef67c7c",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "luma/ray-3-2-video-edit",
+    "order": 5110,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 324,
+    "searchText": "luma ray 3.2 video edit  luma video ray edit",
+    "termsUrls": []
+  },
+  {
+    "description": "Change the aspect ratio of any video (up to 30 seconds long or 100mb). You can use this model to change a landscape 16:9 video to a tall 9:16 one, or expand to a square, and so on.",
+    "displayName": "Luma Reframe",
+    "fullPrice": 70,
+    "icon": "luma",
+    "id": "eeac3e8e-abbc-4099-8444-eb34fc7d79ef",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "luma/reframe-video",
+    "order": 6400,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 70,
+    "privacyPolicyUrl": "https://lumalabs.ai/legal/privacy",
+    "searchText": "luma reframe  outpaint",
+    "termsUrls": [
+      "https://lumalabs.ai/api/terms"
+    ]
+  },
+  {
+    "description": "Generate music from a text prompt (and optional reference images) with Google Lyria 3.",
+    "displayName": "Lyria 3",
+    "fullPrice": 9,
+    "icon": "google",
+    "id": "785e8a51-d0cb-4818-aa4f-cb2d6c0fb29a",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "lyria-3",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 9,
+    "searchText": "lyria 3 lyria lyria 3 google music audio text to music song ",
+    "termsUrls": []
+  },
+  {
+    "description": "Upscale an image with Magnific Precision",
+    "displayName": "Magnific Precision Upscale",
+    "fullPrice": 18,
+    "icon": "magnific",
+    "id": "jLH4HnqWscrhz5Haxoc6",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fp_magnific_upscale_precision",
+    "order": 5050,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": "https://magnific.ai/legal/#privacy",
+    "searchText": "magnific precision upscale  freepik",
+    "termsUrls": [
+      "https://www.freepik.com/legal/terms-of-use",
+      "https://magnific.ai/legal/"
+    ]
+  },
+  {
+    "description": "Upscale an image with Magnific Precision V2",
+    "displayName": "Magnific Precision Upscale V2",
+    "fullPrice": 18,
+    "icon": "magnific",
+    "id": "kMI4HnqWscrhz5Haxpd7",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fp_magnific_upscale_precision_v2",
+    "order": 5040,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": "https://magnific.ai/legal/#privacy",
+    "searchText": "magnific precision upscale v2  freepik",
+    "termsUrls": [
+      "https://www.freepik.com/legal/terms-of-use",
+      "https://magnific.ai/legal/"
+    ]
+  },
+  {
+    "description": "Enhance skin in images using Magnific",
+    "displayName": "Magnific Skin Enhancer",
+    "fullPrice": 18,
+    "icon": "magnific",
+    "id": "kLM4HnqWscrhz5Haxpd7",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fp_skin_enhancer",
+    "order": 5010,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": "https://magnific.ai/legal/#privacy",
+    "searchText": "magnific skin enhancer  freepik",
+    "termsUrls": [
+      "https://magnific.ai/legal/"
+    ]
+  },
+  {
+    "description": "Upscale an image with Magnific",
+    "displayName": "Magnific Upscale",
+    "fullPrice": 18,
+    "icon": "magnific",
+    "id": "iKH4HnqWscrhz5Haxob5",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fp_magnific_upscale",
+    "order": 5020,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": "https://magnific.ai/legal/#privacy",
+    "searchText": "magnific upscale  freepik",
+    "termsUrls": [
+      "https://www.freepik.com/legal/terms-of-use",
+      "https://magnific.ai/legal/"
+    ]
+  },
+  {
+    "description": "Automatically generate a mask based on a text prompt",
+    "displayName": "Mask by Text",
+    "icon": "masks",
+    "id": "da813f69-224a-4b01-a3ca-03c7b088e21f",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": false,
+    "name": "tmappdev/lang-segment-anything",
+    "order": 8020,
+    "outputTypes": [
+      "mask"
+    ],
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "mask by text  ",
+    "termsUrls": [
+      "https://github.com/luca-medeiros/lang-segment-anything/blob/main/LICENSE"
+    ]
+  },
+  {
+    "description": "Automatic objects masks extraction. Click to select, hold shift to add or alt/options to subtract",
+    "displayName": "Mask Extractor",
+    "icon": "masks",
+    "id": "a2Q6sROAZ5NDbT7lRFnzClone",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": true,
+    "name": "bria_masks",
+    "order": 8010,
+    "outputTypes": [
+      "mask",
+      "image"
+    ],
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "masks extractor  ",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "Grow or shrink mask input",
+    "displayName": "Matte Grow / Shrink",
+    "icon": "dilation_erosion",
+    "id": "dilation_erosion",
+    "inputTypes": [
+      "mask"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": false,
+    "order": 8200,
+    "outputTypes": [
+      "mask"
+    ],
+    "searchText": "matte grow / shrink  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Apply alpha to image",
+    "displayName": "Merge Alpha",
+    "icon": "merge_alpha",
+    "id": "KiR8ftfz3wHaQxylpTXbClone",
+    "inputTypes": [
+      "image",
+      "mask"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 8210,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "merge alpha  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Mix audio and video tracks",
+    "displayName": "Merge Audio and Video",
+    "fullPrice": 4,
+    "icon": "fal",
+    "id": "612b7096-9fec-47b2-9df5-e75b69d346c0",
+    "inputTypes": [
+      "audio",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fal-ai/ffmpeg-api/merge-audio-video",
+    "order": null,
+    "outputTypes": [],
+    "price": 4,
+    "searchText": "merge audio and video  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Meshy-6-Preview is the latest model from Meshy. It generates realistic and production ready 3D models.",
+    "displayName": "Meshy V6",
+    "fullPrice": 96,
+    "icon": "meshy",
+    "id": "773804fc-1834-4e1f-9f1c-6a32db38ae6c",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/meshy/v6-preview/image-to-3d",
+    "order": 6990,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 96,
+    "privacyPolicyUrl": null,
+    "searchText": "meshy v6  3d rodin",
+    "termsUrls": []
+  },
+  {
+    "description": "MiniMax Hailuo-02 Image To Video. Generate a 6 seconds video.",
+    "displayName": "Minimax Hailuo-02",
+    "fullPrice": 32,
+    "icon": "minimax",
+    "id": "wnfmbl8VwUCfX2a1Xcdf",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "minimaxV2",
+    "order": 5420,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 32,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "minimax hailuo-02  minimax video hailuo",
+    "termsUrls": []
+  },
+  {
+    "description": "Minimax's first image model",
+    "displayName": "Minimax Image 01",
+    "fullPrice": 1,
+    "icon": "minimax",
+    "id": "P8dRfs7LySwhtEpwUscF",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "minimax/image-01",
+    "order": 1910,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 1,
+    "privacyPolicyUrl": "https://platform.minimax.io/protocol/privacy-policy",
+    "searchText": "minimax image 01  ",
+    "termsUrls": [
+      "https://platform.minimax.io/protocol/terms-of-service"
+    ]
+  },
+  {
+    "description": "MiniMax Music v2.6",
+    "displayName": "MiniMax Music v2.6",
+    "fullPrice": 13,
+    "icon": "minimax",
+    "id": "ff2817ef-10db-427f-b483-8ed9f62eecf5",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/minimax-music/v2.6",
+    "order": 900,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 13,
+    "searchText": "minimax music v2.6  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate high-quality speech from text with MiniMax Speech 2.8.",
+    "displayName": "MiniMax Speech v2.8",
+    "fullPrice": 10,
+    "icon": "minimax",
+    "id": "777d7ab2-328a-40df-9c18-1e17133960fb",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/minimax/speech-2.8-hd",
+    "order": 930,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 10,
+    "searchText": "minimax speech v2.8 audio voiceover minimax minimax speech speech 2.8",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate 6s videos with prompts or images. (Also known as Hailuo). Use a subject reference to make a video with a character and the S2V-01 model.",
+    "displayName": "Minimax Video 01",
+    "fullPrice": 60,
+    "icon": "minimax",
+    "id": "rzbU5ddxuhUSzAmRRzJF",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "minimax/video-01",
+    "order": 5810,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 60,
+    "privacyPolicyUrl": "https://platform.minimax.io/protocol/privacy-policy",
+    "searchText": "minimax video 01  hailuo ai video",
+    "termsUrls": [
+      "https://platform.minimax.io/protocol/terms-of-service"
+    ]
+  },
+  {
+    "description": "Generate video with specific camera movements, with first frame image input. Camera movement instructions can be added using square brackets (e.g. [Pan left] or [Zoom in]). You can use up to 3 combined movements per prompt. Supported movements: Truck left/right, Pan left/right, Push in/Pull out, Pedestal up/down, Tilt up/down, Zoom in/out, Shake, Tracking shot, Static shot. For example: [Truck left, Pan right, Zoom in]",
+    "displayName": "Minimax Video Director",
+    "fullPrice": 60,
+    "icon": "minimax",
+    "id": "qYW1L5Awu0zlKt05iW6P",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "minimax/video-01-director",
+    "order": 5710,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 60,
+    "privacyPolicyUrl": "https://platform.minimax.io/protocol/privacy-policy",
+    "searchText": "minimax video director  hailuo ai video",
+    "termsUrls": [
+      "https://platform.minimax.io/protocol/terms-of-service"
+    ]
+  },
+  {
+    "description": "Clone a voice from an audio sample and preview it with MiniMax.",
+    "displayName": "MiniMax Voice Clone",
+    "fullPrice": 270,
+    "icon": "minimax",
+    "id": "0ec31268-71e4-41dc-951e-f12168939ae1",
+    "inputTypes": [
+      "text",
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/minimax/voice-clone",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 270,
+    "searchText": "minimax voice clone  minimax voice clone voice cloning clone voice tts",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate a video starting from an image as the first frame with Marey, a generative video model trained exclusively on fully licensed data.",
+    "displayName": "Moonvalley",
+    "fullPrice": 165,
+    "icon": "moonvalley",
+    "id": "cdf37afd-a5a1-44dc-b93f-bf35dc3f4dc4",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "moonvalley",
+    "order": 4990,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 165,
+    "privacyPolicyUrl": null,
+    "searchText": "moonvalley  marey video v4",
+    "termsUrls": []
+  },
+  {
+    "description": "Mystic image generation model for ultra-realistic, high-resolution images.",
+    "displayName": "Mystic",
+    "fullPrice": 12,
+    "icon": "magnific",
+    "id": "iKH4HnqWscrhz5Haxoz4",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fp_mystic",
+    "order": 1550,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 12,
+    "privacyPolicyUrl": "https://www.freepik.com/legal/privacy",
+    "searchText": "mystic  freepik",
+    "termsUrls": [
+      "https://www.freepik.com/legal/terms-of-use"
+    ]
+  },
+  {
+    "description": "Google's state-of-the-art image generation and editing model\n",
+    "displayName": "Nano Banana",
+    "fullPrice": 3,
+    "icon": "gemini",
+    "id": "cXDqkhpo0Ul0hhWb5zFA",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/nano-banana/edit",
+    "order": 2690,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 3,
+    "privacyPolicyUrl": null,
+    "searchText": "gemini 2.5 flash (nano banana)  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Google's state-of-the-art image generation and editing model\n",
+    "displayName": "Nano Banana 2",
+    "fullPrice": 6,
+    "icon": "gemini",
+    "id": "bebebed5-50c1-4701-98b3-86929db21585",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/nano-banana-2/edit",
+    "order": 2610,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 6,
+    "searchText": "gemini 3.1 flash (nano banana 2)  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Google's fast image generation and editing model",
+    "displayName": "Nano Banana 2 Lite",
+    "fullPrice": 3,
+    "icon": "gemini",
+    "id": "e3182874-8f56-4b8f-ae09-83677c914cf8",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/nano-banana-2-lite/edit",
+    "order": 2611,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 3,
+    "searchText": "gemini image (nano banana 2 lite)  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Google's state-of-the-art image generation and editing model",
+    "displayName": "Nano Banana Pro",
+    "fullPrice": 11,
+    "icon": "gemini",
+    "id": "af5a6789-c7af-4c46-9a42-70222654e55b",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/nano-banana-pro/edit",
+    "order": 2640,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 11,
+    "privacyPolicyUrl": null,
+    "searchText": "gemini 3 (nano banana pro)  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Use this for numeric fields",
+    "displayName": "Number",
+    "icon": "number",
+    "id": "JbQzwNX9qVhHP59o5yS1Clone",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 9110,
+    "outputTypes": [
+      "number"
+    ],
+    "searchText": "number  number integer float",
+    "termsUrls": []
+  },
+  {
+    "description": "A fast image model with wide artistic range and resolutions up to 4096x4096",
+    "displayName": "Nvidia Sana",
+    "fullPrice": 0.2,
+    "icon": "nvidia",
+    "id": "by66gSaGtuSopadchCJF",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "nvidia/sana",
+    "order": 2310,
+    "outputTypes": [],
+    "price": 0.2,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "nvidia sana  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Omnihuman generates video using an image of a human figure paired with an audio file. It produces vivid, high-quality videos where the character\u2019s emotions and movements",
+    "displayName": "Omnihuman V1.5",
+    "fullPrice": 352,
+    "icon": "bytedance",
+    "id": "9144ff88-1967-4977-bdb1-1bec89a349d6",
+    "inputTypes": [
+      "audio",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/bytedance/omnihuman/v1.5",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 352,
+    "privacyPolicyUrl": null,
+    "searchText": "omnihuman v1.5  lip sync avatar",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Output",
+    "icon": "output",
+    "id": "5AuHOOqORKUC7g1hAyOl",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 8910,
+    "outputTypes": [],
+    "searchText": "output  ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Painter",
+    "icon": "painter",
+    "id": "1NG8fu0qDZ6yi0i5JAhWClone",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7410,
+    "outputTypes": [
+      "mask",
+      "image"
+    ],
+    "searchText": "painter tool paint mask matte painter ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate seamless, high-resolution PBR material maps \u2014 basecolor (albedo), normal, roughness, metalness, and height (displacement) \u2014 from a single input image.",
+    "displayName": "Patina",
+    "fullPrice": 9,
+    "icon": "fal",
+    "id": "0beb116b-ebf7-40c4-80e4-01cfeb7beb93",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/patina",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 9,
+    "searchText": "patina  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Extract a seamless tiling texture with PBR material maps (basecolor, normal, roughness, metalness, height) from a source image.",
+    "displayName": "Patina Extract",
+    "fullPrice": 12,
+    "icon": "fal",
+    "id": "d710c7c7-41cb-4c4c-b761-82c4db9b4458",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/patina/material/extract",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 12,
+    "searchText": "patina extract  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate a complete, seamlessly tiling PBR material (basecolor, normal, roughness, metalness, height) from a text prompt, with optional image-to-image and inpainting.",
+    "displayName": "Patina Material",
+    "fullPrice": 12,
+    "icon": "fal",
+    "id": "de079a1b-d09d-43bc-8e3e-e943fdf1a91f",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/patina/material",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 12,
+    "searchText": "patina material  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Pixverse's latest v6 Model",
+    "displayName": "Pixverse 6",
+    "fullPrice": 86,
+    "icon": "pixverse",
+    "id": "c434373a-e974-4f26-8716-cbaba6b56921",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/pixverse/v6/image-to-video",
+    "order": 4720,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 86,
+    "searchText": "pixverse 6  pixverse video",
+    "termsUrls": []
+  },
+  {
+    "description": "Pixverse 6 Extend",
+    "displayName": "Pixverse 6 Extend",
+    "fullPrice": 45,
+    "icon": "pixverse",
+    "id": "d3223374-04bd-49db-a08c-aee50cceaee6",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/pixverse/v6/extend",
+    "order": 5120,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 45,
+    "searchText": "pixverse 6 extend  pixverse video",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate realistic lipsync animations from audio using advanced algorithms for high-quality synchronization with PixVerse Lipsync model",
+    "displayName": "Pixverse Lipsync",
+    "fullPrice": 66,
+    "icon": "pixverse",
+    "id": "09abbc34-010d-461d-8e7f-bcbad5973deb",
+    "inputTypes": [
+      "text",
+      "audio",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/pixverse/lipsync",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 66,
+    "privacyPolicyUrl": null,
+    "searchText": "pixverse lipsync  lip sync avatar lipsync",
+    "termsUrls": []
+  },
+  {
+    "description": "Add sound effects to a video.",
+    "displayName": "Pixverse Sound Effects",
+    "fullPrice": 30,
+    "icon": "pixverse",
+    "id": "3f3062e3-0268-4c00-9482-d08c7caa2382",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/pixverse/sound-effects",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 30,
+    "searchText": "pixverse sound effects  pixverse sound effects sfx video sound foley",
+    "termsUrls": []
+  },
+  {
+    "description": "Quickly make 5s or 8s videos at 540p, 720p or 1080p. It has enhanced motion, prompt coherence and handles complex actions well.",
+    "displayName": "Pixverse V4.5",
+    "fullPrice": 60,
+    "icon": "pixverse",
+    "id": "bcf37afd-a5a1-44dc-b93f-bf35dc3f4db3",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "pixverse/pixverse-v4.5",
+    "order": 5110,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 60,
+    "privacyPolicyUrl": "https://docs.pixverse.ai/Privacy-Policy-97a21aaf01f646ad968e8f6a0e1a2400",
+    "searchText": "pixverse v4.5  pixverse video v4",
+    "termsUrls": [
+      "https://docs.pixverse.ai/PixVerse-Platform-Terms-of-Service-1773e99bf35080c6a802fae0e3629708"
+    ]
+  },
+  {
+    "description": "",
+    "displayName": "Preview",
+    "icon": "preview",
+    "id": "4cNmuft9fD7RgqTORSMF",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 310,
+    "outputTypes": [],
+    "searchText": "preview tool output show preview ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Prompt",
+    "icon": "prompt",
+    "id": "jzXJ8QEfxQm2sZfvzu7q",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 10,
+    "outputTypes": [
+      "text"
+    ],
+    "searchText": "prompt  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Join multiple text inputs to one output.",
+    "displayName": "Prompt Concatenator",
+    "icon": "prompt_concat",
+    "id": "Skt5hMt1fJCOrLtaOBERClone",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 8410,
+    "outputTypes": [
+      "text"
+    ],
+    "searchText": "prompt concatenator  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Enhance your prompt with an LLM",
+    "displayName": "Prompt Enhancer",
+    "icon": "prompt_enhance",
+    "id": "7gKmskdJQ28nMlxdB6aR",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": true,
+    "name": "any_llm",
+    "order": 8510,
+    "outputTypes": [
+      "text"
+    ],
+    "privacyPolicyUrl": null,
+    "searchText": "prompt enhancer  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Camera-aware edits for Qwen/Qwen-Image-Edit-2509 with Lightning + multi-angle LoRA",
+    "displayName": "Qwen Edit Multiangle",
+    "fullPrice": 4,
+    "icon": "wan",
+    "id": "e8f8c758-a091-4efc-85f8-3b0454b4b42a",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "qwen/qwen-edit-multiangle",
+    "order": 4280,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "qwen edit multiangle  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Qwen's Image Editing Plus model also known as Qwen-Image-Edit-2509. Has superior text editing capabilities and multi-image support.",
+    "displayName": "Qwen Image Edit Plus",
+    "fullPrice": 3,
+    "icon": "wan",
+    "id": "55f92e95-c1cd-4679-9fa4-8a1551034d49",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/qwen-image-edit-plus",
+    "order": 2650,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 3,
+    "privacyPolicyUrl": null,
+    "searchText": "qwen image edit plus  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate speech from text with preset voices or a cloned voice embedding.",
+    "displayName": "Qwen-3 TTS 1.7B (Voiceover)",
+    "fullPrice": 10,
+    "icon": "wan",
+    "id": "3eddd723-2d0b-4920-b3c8-c8de444e4819",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/qwen-3-tts/text-to-speech/1.7b",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 10,
+    "searchText": "qwen-3 tts 1.7b (voiceover)  qwen qwen tts qwen-3 tts qwen3 tts tts text to speech voiceover speech",
+    "termsUrls": []
+  },
+  {
+    "description": "Real-ESRGAN Video Upscaler",
+    "displayName": "Real-ESRGAN Video Upscaler",
+    "fullPrice": 71,
+    "icon": "real_esrgan",
+    "id": "5OMVQbyGMFca7s456avS",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "lucataco/real-esrgan-video",
+    "order": 6810,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 71,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "video upscale / real-esrgan video  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Creative Upscale focuses on enhancing details and refining complex elements in the image. It doesn\u2019t just increase resolution but adds depth by improving textures, fine details, and facial features.",
+    "displayName": "Recraft Creative Upscale",
+    "fullPrice": 36,
+    "icon": null,
+    "id": "9zQT2r1hCNYkUmqxdO3e",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "recraft-ai/recraft-creative-upscale",
+    "order": null,
+    "outputTypes": [],
+    "price": 36,
+    "searchText": "recraft creative upscale  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Designed to make images sharper and cleaner, Crisp Upscale increases overall quality, making visuals suitable for web use or print-ready materials.",
+    "displayName": "Recraft Crisp Upscale",
+    "fullPrice": 5,
+    "icon": "recraft",
+    "id": "iWFnxaHRGV1dSCGeBZti",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "recraft-ai/recraft-crisp-upscale",
+    "order": 5100,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "recraft crisp upscale  recraft crisp upscale upscaler",
+    "termsUrls": []
+  },
+  {
+    "description": "Recraft v3 (code-named red_panda) is a state-of-the-art text-to-image.",
+    "displayName": "Recraft V3",
+    "fullPrice": 4,
+    "icon": "recraft",
+    "id": "ChDw6ChRsOwgfM9MzYC7",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "recraft-ai/recraft-v3",
+    "order": 1510,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "recraft v3 (red panda)  red panda",
+    "termsUrls": []
+  },
+  {
+    "description": "A state-of-the-art text-to-image model with the ability to generate SVG vector graphics.",
+    "displayName": "Recraft V3 SVG",
+    "fullPrice": 10,
+    "icon": "recraft",
+    "id": "Xu6TWJDaCx7fPjOTkf4W",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "recraft-ai/recraft-v3-svg",
+    "order": 2510,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "recraft v3 svg  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Recraft V4 is a new text-to-image model designed specifically for professional design and marketing use cases.",
+    "displayName": "Recraft V4",
+    "fullPrice": 33,
+    "icon": "recraft",
+    "id": "bf7838bb-d079-48a2-ac7c-6b4847f0bdfe",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/recraft/v4/pro/text-to-image",
+    "order": 1500,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 33,
+    "searchText": "recraft v4  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Converts a given raster image to SVG format using Recraft model.",
+    "displayName": "Recraft Vectorizer",
+    "fullPrice": 1,
+    "icon": "recraft",
+    "id": "f8136251-2656-4cc5-87a3-3ef4d96f736e",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/recraft/vectorize",
+    "order": 800,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 1,
+    "searchText": "recraft vectorizer  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Re-lighting image and changing their backgrounds per a given description. Based on iclight-v2",
+    "displayName": "Relight 2.0",
+    "fullPrice": 10,
+    "icon": "relight",
+    "id": "xkLXSKZTMpVl3NbLvsLN",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "relight2",
+    "order": 4210,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 10,
+    "privacyPolicyUrl": null,
+    "searchText": "relight 2.0  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Replace backgrounds existing images with Ideogram V3's replace background feature. Create variations and adaptations while preserving core elements and adding new creative directions through prompt guidance.",
+    "displayName": "Replace Background",
+    "fullPrice": 4,
+    "icon": "ideogram",
+    "id": "lfIMhfCO5bUbiiaQGcs8",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "ig_v3_replace_background",
+    "order": 4100,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "ideogram replace background  ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Resize",
+    "icon": "resize",
+    "id": "eotVNsMcmBQ64gVfdIsTClone",
+    "inputTypes": [
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7610,
+    "outputTypes": [
+      "any"
+    ],
+    "searchText": "resize  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate high-quality images from a text prompt, or connect an image to edit it \u2014 with strong prompt adherence, layout intelligence, and accurate text rendering. Leave the image input unconnected to generate from text.",
+    "displayName": "Reve 2.1",
+    "fullPrice": 25,
+    "icon": "reve",
+    "id": "4c1c3ccc-6327-48ae-90a9-66948d856506",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "reve-2.1",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 25,
+    "searchText": "reve 2.1  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Blend and remix up to 8 reference images with Reve 2.1. Connect reference images and refer to them from the prompt with <frame>0</frame>, <frame>1</frame>, and so on (0-based).",
+    "displayName": "Reve 2.1 Remix",
+    "fullPrice": 25,
+    "icon": "reve",
+    "id": "69f82706-365f-4012-a20e-4e2ffd279afd",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "reve-2.1-remix",
+    "order": null,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 25,
+    "searchText": "reve 2.1 remix  ",
+    "termsUrls": []
+  },
+  {
+    "description": "extract foreground of a video",
+    "displayName": "Robust Video Matting",
+    "fullPrice": 12,
+    "icon": null,
+    "id": "qispb5lNZWTlr20jPGwx",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "arielreplicate/robust_video_matting",
+    "order": null,
+    "outputTypes": [],
+    "price": 12,
+    "searchText": "robust video matting  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate 3D models from text and/or images",
+    "displayName": "Rodin",
+    "fullPrice": 48,
+    "icon": "rodin",
+    "id": "lOEfqVMIP1UgZxUqiQEz",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "hyper_3d_rodin",
+    "order": 7020,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 48,
+    "privacyPolicyUrl": null,
+    "searchText": "rodin 3d  3d rodin",
+    "termsUrls": []
+  },
+  {
+    "description": "Rodin by Hyper3D generates realistic and production ready 3D models from text or images.",
+    "displayName": "Rodin V2",
+    "fullPrice": 36,
+    "icon": "rodin",
+    "id": "957b4051-2080-45cb-bf6a-163325d6285f",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/hyper3d/rodin/v2",
+    "order": 7010,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 36,
+    "privacyPolicyUrl": null,
+    "searchText": "rodin 3d v2  3d rodin",
+    "termsUrls": []
+  },
+  {
+    "description": "Rotate or flip images and videos",
+    "displayName": "Rotate and flip",
+    "icon": "rotate",
+    "id": "cb8bdb07-1e77-5b12-ad14-c0352862bf85",
+    "inputTypes": [
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7000,
+    "outputTypes": [
+      "any"
+    ],
+    "searchText": "rotate and flip  ",
+    "termsUrls": []
+  },
+  {
+    "description": "",
+    "displayName": "Router",
+    "icon": "router",
+    "id": "Pgl8wL2X58uh8ZdehDtUClone",
+    "inputTypes": [
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 8810,
+    "outputTypes": [
+      "any"
+    ],
+    "searchText": "router  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Act-Two allows you to animate characters using driving performance videos. By providing a driving performance of someone acting out a scene and a character reference (image or video), Act-Two transfers the movement to your character, bringing them to life with realistic motion, speech, and expression.\n\n",
+    "displayName": "Runway Act-Two",
+    "fullPrice": 50,
+    "icon": "runway",
+    "id": "RoZ5Ep88oat556S1tpO1",
+    "inputTypes": [
+      "any",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "rw_act_2",
+    "order": 5210,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 50,
+    "privacyPolicyUrl": null,
+    "searchText": "runway act-two  runway video act 2 alpha",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit a video to match a text prompt and optional keyframe images. Supports first-frame, last-frame, and timestamp-positioned keyframes (Runway aleph2_alpha, early access).",
+    "displayName": "Runway Aleph 2",
+    "fullPrice": 504,
+    "icon": "runway",
+    "id": "ad443d62-f5ad-4d09-afc2-e545f35ace7b",
+    "inputTypes": [
+      "text",
+      "video",
+      "runway-aleph2-keyframe"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "rw_aleph2",
+    "order": 5100,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 504,
+    "searchText": "runway aleph 2  runway aleph aleph2 video_to_video alpha",
+    "termsUrls": []
+  },
+  {
+    "description": "Provide a keyframe image with timestamp for Runway Aleph 2",
+    "displayName": "Runway Aleph 2 Keyframe",
+    "icon": "runway",
+    "id": "rw_aleph2_keyframe",
+    "inputTypes": [
+      "image"
+    ],
+    "isLeaf": true,
+    "isNew": true,
+    "isVerified": false,
+    "outputTypes": [
+      "runway-aleph2-keyframe"
+    ],
+    "price": 0,
+    "searchText": "runway aleph keyframe timestamp prompt image"
+  },
+  {
+    "description": "Generate video from an image and a prompt (Optional). Use the prompt to describe the camera style and movement speed . <a href=\"https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Prompting-Guide\" style=\"color: white;\" target=\"_blank\">Prompting guide</a>",
+    "displayName": "Runway Gen-4",
+    "fullPrice": 70,
+    "icon": "runway",
+    "id": "RpA5Ep88oat556S1tqO1",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "rw_4_video_original",
+    "order": 5210,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 70,
+    "privacyPolicyUrl": null,
+    "searchText": "runway gen-4  runway video gen4 alpha",
+    "termsUrls": []
+  },
+  {
+    "description": "Runway's Gen-4 Image model with references. Use up to 3 reference images to create the exact image you need. Capture every angle.",
+    "displayName": "Runway Gen-4 Image",
+    "fullPrice": 6,
+    "icon": "runway",
+    "id": "9319eb12-1407-44b3-ba8d-5d5925554305",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "runwayml/gen4-image",
+    "order": 2700,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 6,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "runway gen-4 image  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate video from an image and a prompt (Optional). Use the prompt to describe the camera style and movement speed . <a href=\"https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Prompting-Guide\" style=\"color: white;\" target=\"_blank\">Prompting guide</a>",
+    "displayName": "Runway Gen-4 Turbo",
+    "fullPrice": 30,
+    "icon": "runway",
+    "id": "QoZ5Ep88oat556S1tpN0",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "rw_4_video",
+    "order": 5220,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 30,
+    "privacyPolicyUrl": null,
+    "searchText": "runway gen-4 turbo  runway video gen4 alpha",
+    "termsUrls": []
+  },
+  {
+    "description": "State-of-the-art motion quality, prompt adherence and visual fidelity.",
+    "displayName": "Runway Gen-4.5",
+    "fullPrice": 70,
+    "icon": "runway",
+    "id": "RpA5Ep88oat556S1tqO2",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "rw_4_5_video_original",
+    "order": 5230,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 70,
+    "privacyPolicyUrl": null,
+    "searchText": "runway gen-4.5  runway video gen4 alpha",
+    "termsUrls": []
+  },
+  {
+    "description": "SAM 3D enables precise 3D reconstruction of objects from real images, while accurately reconstructing their geometry and texture.",
+    "displayName": "SAM 3D - Objects",
+    "fullPrice": 3,
+    "icon": "meta",
+    "id": "9d760032-8036-43c0-b382-85836edf359f",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/sam-3/3d-objects",
+    "order": 7000,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 3,
+    "privacyPolicyUrl": null,
+    "searchText": "sam 3d - objects  3d rodin",
+    "termsUrls": []
+  },
+  {
+    "description": "Remove any object in the image by providing a mask based on Stable Diffusion",
+    "displayName": "SD3 Content-Aware Fill",
+    "fullPrice": 4,
+    "icon": "stability_ai",
+    "id": "fcLqAf8v9ZwVChql4Mi9",
+    "inputTypes": [
+      "mask",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sd_objectremove",
+    "order": 3810,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "sd3 - content-aware fill  sd3 stablediffusion removeobject deleteobject",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit specific part of an image based on prompt and mask",
+    "displayName": "SD3 Inpaint",
+    "fullPrice": 4,
+    "icon": "stability_ai",
+    "id": "C3qmf2tStypPLsSUgzSW",
+    "inputTypes": [
+      "mask",
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sd_inpaint",
+    "order": 3210,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "sd3 inpaint  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Extend image boundaries",
+    "displayName": "SD3 Outpaint",
+    "fullPrice": 5,
+    "icon": "stability_ai",
+    "id": "rSohWhhj1vNyXmRjsHyB",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sd_outpaint",
+    "order": 3510,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "privacyPolicyUrl": null,
+    "searchText": "sd3 outpaint  sd3 stablediffusion outpainting",
+    "termsUrls": []
+  },
+  {
+    "description": "Remove background of image based on Stable Diffusion",
+    "displayName": "SD3 Remove Background",
+    "fullPrice": 2,
+    "icon": "stability_ai",
+    "id": "60vyOAALx1aZRcCBm9ve",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sd_bgrmv",
+    "order": 3610,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 2,
+    "privacyPolicyUrl": null,
+    "searchText": "sd3 - remove background  sd3 stablediffusion removebackground deletebackground",
+    "termsUrls": []
+  },
+  {
+    "description": "Create images of a given character in different poses",
+    "displayName": "SDXL Consistent Character",
+    "fullPrice": 10,
+    "icon": null,
+    "id": "fVqo2AL5IHCte7FBgvWk",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/consistent-character",
+    "order": null,
+    "outputTypes": [],
+    "price": 10,
+    "searchText": "sdxl consistent character  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Canny / Depth map / HED edge detection / Hough/MLSD line detection / Normal map / Pose detection / Scribble / Semantic segmentation",
+    "displayName": "SDXL Control Net Models ",
+    "fullPrice": 1,
+    "icon": null,
+    "id": "bHul60wI3yVmsrYFqWaB",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "rossjillian/controlnet",
+    "order": null,
+    "outputTypes": [],
+    "price": 1,
+    "searchText": "sdxl control net models   ",
+    "termsUrls": []
+  },
+  {
+    "description": "Use this for numeric fields",
+    "displayName": "Seed",
+    "icon": "seed",
+    "id": "HMTea9nBdmeBeoCAdxvzClone",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 9510,
+    "outputTypes": [
+      "seed"
+    ],
+    "searchText": "seed  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate speech from text with a choice of preset voices and optional reference audio.",
+    "displayName": "Seed Audio 1.0 (Audio Reference)",
+    "fullPrice": 40,
+    "icon": "bytedance",
+    "id": "ad629dad-6257-4773-8540-ab945d7d1421",
+    "inputTypes": [
+      "text",
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seed-audio-1.0",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 40,
+    "searchText": "seed audio 1.0 (audio reference)  seed audio seed audio audio seedtts bytedance tts text to speech voiceover speech",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate speech from text with a choice of preset voices and a reference image.",
+    "displayName": "Seed Audio 1.0 (Image Reference)",
+    "fullPrice": 40,
+    "icon": "bytedance",
+    "id": "5d915eee-c737-4144-8b5c-20e9380c6225",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seed-audio-1.0",
+    "order": null,
+    "outputTypes": [
+      "audio"
+    ],
+    "price": 40,
+    "searchText": "seed audio 1.0 (image reference)  seed audio image seed audio image reference seedtts bytedance tts text to speech voiceover speech",
+    "termsUrls": []
+  },
+  {
+    "description": "ByteDance's most advanced video generation model. Cinematic output with native audio, real-world physics, and director-level camera control. Accepts text, image, audio, and video inputs.",
+    "displayName": "Seedance 2.0",
+    "fullPrice": 127,
+    "icon": "bytedance",
+    "id": "ef824a0d-2052-4893-99c5-6e18da805d8a",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seedance-2.0/image-to-video",
+    "order": 4640,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 127,
+    "searchText": "seedance 2.0  bytedance video",
+    "termsUrls": []
+  },
+  {
+    "description": "Cost-effective video generation from ByteDance. Generate video from a text prompt, or supply an image to animate it. (Early access \u2014 placeholder endpoint.)",
+    "displayName": "Seedance 2.0 Mini",
+    "fullPrice": 65,
+    "icon": "bytedance",
+    "id": "c11c3ef1-32d2-48b4-83e9-0cc2a5599646",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seedance-2.0/mini/image-to-video",
+    "order": 4620,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 65,
+    "searchText": "seedance 2.0 mini  seedance seedance 2.0 mini bytedance text to video image to video video",
+    "termsUrls": []
+  },
+  {
+    "description": "Cost-effective reference-to-video generation from ByteDance. Provide a prompt plus reference images, videos, or audio. (Early access \u2014 placeholder endpoint.)",
+    "displayName": "Seedance 2.0 Mini Reference to Video",
+    "fullPrice": 65,
+    "icon": "bytedance",
+    "id": "bf552628-36e3-49cc-8c84-ba583a584401",
+    "inputTypes": [
+      "text",
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seedance-2.0/mini/reference-to-video",
+    "order": 4610,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 65,
+    "searchText": "seedance 2.0 mini reference to video  seedance seedance 2.0 mini bytedance reference to video video",
+    "termsUrls": []
+  },
+  {
+    "description": "ByteDance's most advanced reference-to-video model. Generate video from up to 9 images, 3 videos, and 3 audio clips with native audio and cinematic camera control.",
+    "displayName": "Seedance 2.0 Reference",
+    "fullPrice": 102,
+    "icon": "bytedance",
+    "id": "0c703c46-e0fe-4ef3-9a72-5f04c74c862c",
+    "inputTypes": [
+      "text",
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seedance-2.0/reference-to-video",
+    "order": 4641,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 102,
+    "searchText": "seedance 2.0 reference  bytedance video",
+    "termsUrls": []
+  },
+  {
+    "description": "ByteDance's latest video model. Generate from a text prompt or animate an image, with native audio, real-world physics, and up to 30 seconds of output.",
+    "displayName": "Seedance 2.5",
+    "fullPrice": 342,
+    "icon": "bytedance",
+    "id": "cbe8b347-8c85-4e1a-b379-f96f48932f43",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seedance-2.5/image-to-video",
+    "order": 4590,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 171,
+    "promo": {
+      "expiresAt": "2026-08-22T03:59:00Z"
+    },
+    "searchText": "seedance 2.5  seedance seedance 2.5 bytedance text to video image to video t2v i2v video",
+    "termsUrls": []
+  },
+  {
+    "description": "ByteDance's latest reference-to-video model. Guide generation with up to 30 images, 10 videos, and 10 audio clips, referenced from the prompt as @Image1, @Video1, @Audio1.",
+    "displayName": "Seedance 2.5 Reference",
+    "fullPrice": 546,
+    "icon": "bytedance",
+    "id": "982fa32e-5727-4ab4-9036-5300eacfdfdc",
+    "inputTypes": [
+      "text",
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bytedance/seedance-2.5/reference-to-video",
+    "order": 4580,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 273,
+    "promo": {
+      "expiresAt": "2026-08-22T03:59:00Z"
+    },
+    "searchText": "seedance 2.5 reference  seedance seedance 2.5 bytedance reference to video r2v video",
+    "termsUrls": []
+  },
+  {
+    "description": "Seedance V1.0 by Bytedance",
+    "displayName": "Seedance V1.0",
+    "fullPrice": 18,
+    "icon": "bytedance",
+    "id": "zXcdgvm37CMl9s0Md11d",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-seedance",
+    "order": 5080,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 18,
+    "privacyPolicyUrl": null,
+    "searchText": "seedance v1.0  bytedance video",
+    "termsUrls": []
+  },
+  {
+    "description": "Seedance V1.5 by Bytedance",
+    "displayName": "Seedance V1.5 Pro",
+    "fullPrice": 31,
+    "icon": "bytedance",
+    "id": "8c3b471a-78fa-43ce-b95b-61d74a475dd1",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+    "order": 4780,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 31,
+    "privacyPolicyUrl": null,
+    "searchText": "seedance v1.5 pro  bytedance video",
+    "termsUrls": []
+  },
+  {
+    "description": "A new-generation image creation model ByteDance, Seedream 4.5 integrates image generation and image editing capabilities into a single, unified architecture.",
+    "displayName": "Seedream V4.5 Edit",
+    "fullPrice": 4,
+    "icon": "bytedance",
+    "id": "22ada3e5-17fd-4736-b63d-78d56d1864df",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/bytedance/seedream/v4.5/edit",
+    "order": 2630,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "seedream v4.5 edit  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Image editing endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent image editing with multiple inputs.",
+    "displayName": "Seedream V5.0 Edit",
+    "fullPrice": 4,
+    "icon": "bytedance",
+    "id": "81eef25f-a729-4bdb-a5f7-9f37d5e1c867",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/bytedance/seedream/v5/lite/edit",
+    "order": 2630,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "searchText": "seedream v5.0 edit  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Turn a sketch into an image using prompt",
+    "displayName": "Sketch to Image",
+    "fullPrice": 4,
+    "icon": "stability_ai",
+    "id": "xYPPw0rOvmNH25K1yPYM",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sd_sketch",
+    "order": 4710,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 4,
+    "privacyPolicyUrl": null,
+    "searchText": "sketch to image  ",
+    "termsUrls": []
+  },
+  {
+    "description": "video generation model is more physically accurate, realistic, and more controllable than prior systems. It also features synchronized dialogue and sound effects. ",
+    "displayName": "Sora 2",
+    "fullPrice": 96,
+    "icon": "openai",
+    "id": "efh37afd-a5a1-44dc-b93f-bf35dc3f4e6",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "sora",
+    "order": 4900,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 96,
+    "privacyPolicyUrl": null,
+    "searchText": "sora 2  sora video",
+    "termsUrls": []
+  },
+  {
+    "description": "A text-to-image model that generates high-resolution images with fine details. It supports various artistic styles and produces diverse outputs from the same prompt.",
+    "displayName": "Stable Diffusion 3.5",
+    "fullPrice": 8,
+    "icon": "stability_ai",
+    "id": "z6NZWE81HgVlYP1FH1EE",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "stability-ai/stable-diffusion-3.5-large",
+    "order": 1810,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 8,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "stable diffusion 3.5  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Canny / Depth map / HED edge detection / Hough/MLSD line detection / Normal map / Pose detection / Scribble / Semantic segmentation",
+    "displayName": "Stable Diffusion Controlnets",
+    "fullPrice": 1,
+    "icon": "stability_ai",
+    "id": "52yrXLftonxntIx0Cbjp",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "rossjillian/controlnet",
+    "order": 4610,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 1,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "sd controlnet models  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate high-quality realistic lipsync animations from audio while preserving unique details like natural teeth and unique facial features using the state-of-the-art Sync Lipsync 2 Pro model.",
+    "displayName": "Sync 2 Pro",
+    "fullPrice": 184,
+    "icon": "sync",
+    "id": "0a4c2878-b9f6-494d-a11d-15ff73d9b79c",
+    "inputTypes": [
+      "audio",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fal-ai/sync-lipsync/v2/pro",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 184,
+    "privacyPolicyUrl": "https://sync.so/privacy",
+    "searchText": "sync 2 pro  lip sync avatar",
+    "termsUrls": [
+      "https://sync.so/terms"
+    ]
+  },
+  {
+    "description": "",
+    "displayName": "Text",
+    "icon": "string",
+    "id": "iB0UfxX3z6c1LCTaLH65Clone",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 9210,
+    "outputTypes": [
+      "text"
+    ],
+    "searchText": "text  string text",
+    "termsUrls": []
+  },
+  {
+    "description": "Iterate over a list of text values",
+    "displayName": "Text Iterator",
+    "icon": "text-iterator",
+    "id": "text_iterator",
+    "inputTypes": [
+      "array"
+    ],
+    "isLeaf": true,
+    "isVerified": false,
+    "outputTypes": [
+      "text"
+    ],
+    "price": 0,
+    "searchText": "text-iterator iterator text"
+  },
+  {
+    "description": "Generate high-quality, editable vector graphic",
+    "displayName": "Text To Vector",
+    "fullPrice": 6,
+    "icon": "bria",
+    "id": "Qb6zUxvUimApQdPXwYb1",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "br_vector",
+    "order": 2610,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 6,
+    "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+    "searchText": "bria text to vector  bria",
+    "termsUrls": [
+      "https://bria.ai/terms-and-conditions"
+    ]
+  },
+  {
+    "description": "",
+    "displayName": "Toggle",
+    "icon": "boolean",
+    "id": "UpdngxSEck7aHx92LkSgClone",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 9310,
+    "outputTypes": [
+      "boolean"
+    ],
+    "searchText": "toggle  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Use the powerful and accurate topaz image enhancer to enhance your images.",
+    "displayName": "Topaz Image Upscale",
+    "fullPrice": 19,
+    "icon": "topaz",
+    "id": "f016f288-2cc1-4e87-874a-bb6d6ce92b93",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/topaz/upscale/image",
+    "order": 4810,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 19,
+    "privacyPolicyUrl": null,
+    "searchText": "topaz image upscale  topaz enhance upscale upscaler",
+    "termsUrls": []
+  },
+  {
+    "description": " Produces clear images with crisp details. Unlike traditional sharpening that darkens or brightens pixel edges, it reverses the root causes of blurriness, such as camera shake, motion blur, and missed focus.",
+    "displayName": "Topaz Sharpen",
+    "fullPrice": 19,
+    "icon": "topaz",
+    "id": "tIaCxgjIdFoJXiXhBkUg",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "topaz-sharpen",
+    "order": 4910,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 19,
+    "privacyPolicyUrl": null,
+    "searchText": "topaz sharpen  topaz sharpen upscale upscaler",
+    "termsUrls": []
+  },
+  {
+    "description": "Professional-grade video upscaling using Topaz technology.",
+    "displayName": "Topaz Video Upscaler",
+    "fullPrice": 12,
+    "icon": "topaz",
+    "id": "ZI9GqWi2ItAzfymF26K7",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "topaz-upscale-video",
+    "order": 6710,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 12,
+    "privacyPolicyUrl": null,
+    "searchText": "topaz video upscaler  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate 3D models from your images using Trellis.",
+    "displayName": "Trellis",
+    "fullPrice": 2,
+    "icon": "trellis",
+    "id": "fbgSp5DMNzehH2NhobbS",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-trellis",
+    "order": 7120,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 2,
+    "privacyPolicyUrl": null,
+    "searchText": "trellis 3d  3d trellis",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate 3D models from your images using Trellis 2. A native 3D generative model enabling versatile and high-quality 3D asset creation.",
+    "displayName": "Trellis 3D V2",
+    "fullPrice": 30,
+    "icon": "trellis",
+    "id": "c368da57-9b0a-4d1d-bf8b-b7ca16482e91",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/trellis-2",
+    "order": 7110,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 30,
+    "searchText": "trellis 3d v2  3d ",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate 3D models from multiple view images using Tripo H3.1.",
+    "displayName": "Tripo H3.1",
+    "fullPrice": 53,
+    "icon": "tripo",
+    "id": "7642de81-849f-46c8-a77c-a37500424a9a",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "tripo3d/h3.1/multiview-to-3d",
+    "order": 6999,
+    "outputTypes": [
+      "image",
+      "3D"
+    ],
+    "price": 53,
+    "searchText": "tripo h3.1  3d",
+    "termsUrls": []
+  },
+  {
+    "description": "Generate a .glb file from an image",
+    "displayName": "Tripo-SR Image to 3D",
+    "fullPrice": 10,
+    "icon": null,
+    "id": "jEYAeoEpNhDqbobLqITJ",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "camenduru/tripo-sr",
+    "order": null,
+    "outputTypes": [],
+    "price": 10,
+    "searchText": "tripo-sr image to 3d  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Convert your PNG and JPG images to SVG vectors",
+    "displayName": "Vectorizer",
+    "fullPrice": 24,
+    "icon": "vectorizer",
+    "id": "iKH4HnqWscrhz5Haxoa5",
+    "inputTypes": [
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "vectorizer",
+    "order": 810,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 24,
+    "privacyPolicyUrl": "https://vectorizer.ai/policies/privacy",
+    "searchText": "vectorizer  ",
+    "termsUrls": [
+      "https://vectorizer.ai/policies/terms"
+    ]
+  },
+  {
+    "description": "Remove the background from any video \u2014 people or objects, no green screen needed. Choose Standard for best quality or Fast for quicker, lower-cost results.",
+    "displayName": "Veed Background Removal",
+    "fullPrice": 22,
+    "icon": "veed",
+    "id": "fc985494-4831-4e69-9e91-7d47c0b3e542",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "veed/video-background-removal",
+    "order": 5115,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 22,
+    "searchText": "veed background removal  veed background removal remove background video_to_video rotoscope matte alpha",
+    "termsUrls": []
+  },
+  {
+    "description": "Animate a portrait into a talking video from a text script and an image.",
+    "displayName": "Veed Fabric 1.0",
+    "fullPrice": 180,
+    "icon": "veed",
+    "id": "e807a778-a358-495e-9f96-3510df081c30",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "veed/fabric-1.0/text",
+    "order": 4631,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 180,
+    "searchText": "veed fabric 1.0  veed fabric talking image talking video avatar lip sync",
+    "termsUrls": []
+  },
+  {
+    "description": "Turn a still image and an audio track into a talking video.",
+    "displayName": "Veed Fabric 1.0 Lip Sync",
+    "fullPrice": 180,
+    "icon": "veed",
+    "id": "342f85c4-e7e6-4362-935c-17b6ae95ffab",
+    "inputTypes": [
+      "audio",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "veed/fabric-1.0",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 180,
+    "searchText": "veed fabric 1.0 lip sync  veed fabric talking video lip sync image to video",
+    "termsUrls": []
+  },
+  {
+    "description": "Sync a video's lip movements to a new audio track.",
+    "displayName": "Veed Lip Sync 2",
+    "fullPrice": 105,
+    "icon": "veed",
+    "id": "06231354-ba2b-4c70-ad7c-696d92f202e3",
+    "inputTypes": [
+      "audio",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "veed/lipsync/v2",
+    "order": null,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 105,
+    "searchText": "veed lip sync 2  veed lipsync lip sync dub dubbing talking",
+    "termsUrls": []
+  },
+  {
+    "description": "VEED\u2019s Subtitles API transforms raw footage into polished, publish-ready content with professional burned-in subtitles.\n",
+    "displayName": "Veed Subtitles",
+    "fullPrice": 15,
+    "icon": "veed",
+    "id": "679158a1-d690-4856-8b52-8b4805ad1052",
+    "inputTypes": [
+      "video",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "veed/subtitles",
+    "order": 6441,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 15,
+    "searchText": "veed subtitles  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Veo creates videos with realistic motion and high quality output.",
+    "displayName": "Veo 2",
+    "fullPrice": 225,
+    "icon": "google",
+    "id": "wWcdgvm37CMl9s0Md99a",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google-veo2",
+    "order": 5610,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 225,
+    "privacyPolicyUrl": null,
+    "searchText": "google veo 2  google video veo2",
+    "termsUrls": []
+  },
+  {
+    "description": "Sound on: Google\u2019s flagship Veo 3 image to video model, with audio",
+    "displayName": "Veo 3.1 Image to Video",
+    "fullPrice": 90,
+    "icon": "google",
+    "id": "fg6e8647-d90a-4bad-a845-69fdc102a14j",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google-veo3-i2v",
+    "order": 4750,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 90,
+    "privacyPolicyUrl": null,
+    "searchText": "veo 3.1 image to video  google video veo3",
+    "termsUrls": []
+  },
+  {
+    "description": "Sound on: Google\u2019s flagship Veo 3 text to video model, with audio",
+    "displayName": "Veo 3.1 Text to Video",
+    "fullPrice": 90,
+    "icon": "google",
+    "id": "eg6e8647-d90a-4bad-a845-69fdc102a13i",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "google-veo3-t2v",
+    "order": 4700,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 90,
+    "privacyPolicyUrl": null,
+    "searchText": "veo 3.1 text to video  google video veo3",
+    "termsUrls": []
+  },
+  {
+    "description": "Automatically remove backgrounds from videos -perfect for creating clean, professional content without a green screen.",
+    "displayName": "Video Background Removal",
+    "fullPrice": 154,
+    "icon": "bria",
+    "id": "5d3f01ff-0d74-4dc5-a6fa-5dbc3f64c200",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "bria/video/background-removal/v3",
+    "order": 6439,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 154,
+    "searchText": "video background removal  bria",
+    "termsUrls": []
+  },
+  {
+    "description": "Play two or more videos back-to-back into a single video.",
+    "displayName": "Video Concatenator",
+    "icon": "video_concatenator",
+    "id": "video_concatenator",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "order": 7300,
+    "outputTypes": [
+      "video"
+    ],
+    "searchText": "video concatenator  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Run any video-capable LLM with fal. Analyze, summarize, and understand video files using Gemini (Google) models. Supports mp4, mpeg, mov, webm, and YouTube links. Powered by OpenRouter.",
+    "displayName": "Video Describer",
+    "icon": "video_decribe",
+    "id": "666e9561-e015-489d-a29a-df6d43fe86b7",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": true,
+    "name": "openrouter/router/video/enterprise",
+    "order": 8721,
+    "outputTypes": [
+      "text"
+    ],
+    "privacyPolicyUrl": null,
+    "searchText": "video describer  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Iterate over a list of videos",
+    "displayName": "Video Iterator",
+    "icon": "video-iterator",
+    "id": "video_iterator",
+    "inputTypes": [],
+    "isLeaf": true,
+    "isVerified": false,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 0,
+    "searchText": "video-iterator iterator video"
+  },
+  {
+    "description": "Generate a black and white alpha video based on prompt input.",
+    "displayName": "Video Mask by Text",
+    "icon": "video_matte",
+    "id": "c7c6ac98-030b-40cd-8028-f47c84e89496",
+    "inputTypes": [
+      "video",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": true,
+    "name": "fal-ai/sam-3/video",
+    "order": 8230,
+    "outputTypes": [
+      "mask"
+    ],
+    "privacyPolicyUrl": null,
+    "searchText": "video mask by text  matte matting alpha mask",
+    "termsUrls": []
+  },
+  {
+    "description": "extract foreground of a video",
+    "displayName": "Video Matte",
+    "icon": "video_matte",
+    "id": "rjspb5lNZWTlr20jPGxy",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isVerified": false,
+    "name": "arielreplicate/robust_video_matting",
+    "order": 8220,
+    "outputTypes": [
+      "video"
+    ],
+    "searchText": "extract video matte  matte matting alpha mask",
+    "termsUrls": []
+  },
+  {
+    "description": "Create videos from illustrated input images",
+    "displayName": "Video Model / Tooncrafter",
+    "fullPrice": 7,
+    "icon": null,
+    "id": "FwAS51BJEirzzwKLIfIg",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/tooncrafter",
+    "order": null,
+    "outputTypes": [],
+    "price": 7,
+    "searchText": "video model / tooncrafter  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Create videos from illustrated input images",
+    "displayName": "Video Model / Tooncrafter",
+    "fullPrice": 7,
+    "icon": null,
+    "id": "1L4EZZiVYF9Sg8s6fBWq",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/tooncrafter",
+    "order": null,
+    "outputTypes": [],
+    "price": 7,
+    "searchText": "video model / tooncrafter  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Interpolate video frames",
+    "displayName": "Video Smoother",
+    "fullPrice": 5,
+    "icon": "video_smoother",
+    "id": "3C19UtKNyZDd7bt3E8QL",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "pollinations/amt",
+    "order": 6910,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 5,
+    "searchText": "video smoother  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Interpolate video frames",
+    "displayName": "Video Smoother",
+    "fullPrice": 5,
+    "icon": null,
+    "id": "2C19UtKNyZDd7bt3E8QK",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "pollinations/amt",
+    "order": null,
+    "outputTypes": [],
+    "price": 5,
+    "searchText": "video smoother  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Synthesize high-quality audio from video content, enabling seamless video-to-audio transformation",
+    "displayName": "Video to Audio",
+    "fullPrice": 1.5,
+    "icon": null,
+    "id": "3kL0yZNd7MU09zE9GQmp",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "zsxkib/mmaudio",
+    "order": null,
+    "outputTypes": [],
+    "price": 1.5,
+    "searchText": "video to audio  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Convert a video into a GIF",
+    "displayName": "Video to GIF",
+    "icon": "weavy",
+    "id": "4adfba3b-d861-4509-b90e-e4dfcee854fa",
+    "inputTypes": [
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isVerified": true,
+    "name": "fofr/toolkit",
+    "order": 8330,
+    "outputTypes": [
+      "image"
+    ],
+    "searchText": "video to gif  ",
+    "termsUrls": []
+  },
+  {
+    "description": "GFPGAN for human face video upscaling",
+    "displayName": "Video Upscale / GFPGAN video",
+    "fullPrice": 6,
+    "icon": null,
+    "id": "h8z6Fnb3wLzNklglOhKN",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "pbarker/gfpgan-video",
+    "order": null,
+    "outputTypes": [],
+    "price": 6,
+    "searchText": "video upscale / gfpgan video  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Basic video processing functions:\n\nconvert_input_to_gif\nextract_video_audio_as_mp3\nextract_frames_from_input\nreverse_video\nbounce_video\ncreate_preview_video",
+    "displayName": "Video Utilities",
+    "fullPrice": 0.1,
+    "icon": "replicate",
+    "id": "0cbc194f-8360-4044-8532-aa36bcac1f17",
+    "inputTypes": [
+      "any"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "nicolascoutureau/video-utils",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.1,
+    "searchText": "video utilities  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Void by Netflix. Video object removal that also corrects physical interactions",
+    "displayName": "Void - Video Object Removal",
+    "fullPrice": 12,
+    "icon": "netflix",
+    "id": "c0824675-decf-450a-9079-66329f76605d",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/void-video-inpainting",
+    "order": 6440,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 12,
+    "searchText": "void - video object removal  netflix remove",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan 2.2's video generation has received a comprehensive upgrade. It now includes both Text-to-Video and Image-to-Video functions and supports cinema-grade aesthetic controls.",
+    "displayName": "Wan 2.2",
+    "fullPrice": 66,
+    "icon": "wan",
+    "id": "3b0deb2d-a4bd-482d-b385-92ddaf77b1d9",
+    "inputTypes": [
+      "image",
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "wan22",
+    "order": 4980,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 66,
+    "privacyPolicyUrl": null,
+    "searchText": "wan 2.2  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan-Animate is a video model that generates high-fidelity character videos by replicating the expressions and movements of characters from reference videos.",
+    "displayName": "Wan 2.2 Animate - Move",
+    "fullPrice": 100,
+    "icon": "wan",
+    "id": "9e8a6df1-00a9-456d-82a4-eb96d5948af4",
+    "inputTypes": [
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/wan/v2.2-14b/animate/move",
+    "order": 6480,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 100,
+    "privacyPolicyUrl": null,
+    "searchText": "wan 2.2 animate - move  wan video alibaba vace depth animation",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan-Animate Replace is a model that can integrate animated characters into reference videos, replacing the original character while preserving the scene\u2019s lighting and color tone for seamless environmental integration.",
+    "displayName": "Wan 2.2 Animate - Replace",
+    "fullPrice": 100,
+    "icon": "wan",
+    "id": "60485a69-3d64-45d4-a7c3-88c55e86fddb",
+    "inputTypes": [
+      "image",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/wan/v2.2-14b/animate/replace",
+    "order": 6460,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 100,
+    "privacyPolicyUrl": null,
+    "searchText": "wan 2.2 animate - replace  wan video alibaba vace depth animation replace pose",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan 2.5 image-to-video model.",
+    "displayName": "Wan 2.5",
+    "fullPrice": 55,
+    "icon": "wan",
+    "id": "941b6623-67ec-46fc-8666-cd48adeee1f9",
+    "inputTypes": [
+      "text",
+      "audio",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/wan-25-preview/image-to-video",
+    "order": 4960,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 55,
+    "privacyPolicyUrl": null,
+    "searchText": "wan 2.5  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Edit and transform images using text instructions with the WAN 2.7 Pro model for precise, professional-grade image modifications.",
+    "displayName": "Wan 2.7",
+    "fullPrice": 5,
+    "icon": "wan",
+    "id": "78d4861e-d2c1-45d1-b898-640dc5cf692a",
+    "inputTypes": [
+      "text",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/wan/v2.7/edit",
+    "order": 2645,
+    "outputTypes": [
+      "image"
+    ],
+    "price": 5,
+    "searchText": "wan 2.7  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan 2.7 is the latest generation AI video model, delivering enhanced motion smoothness, superior scene fidelity, and greater visual coherence.",
+    "displayName": "Wan 2.7 Video",
+    "fullPrice": 86,
+    "icon": "wan",
+    "id": "941b6623-67ec-46fc-8666-cd48adeee1f8",
+    "inputTypes": [
+      "text",
+      "audio",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/wan/v2.7/image-to-video",
+    "order": 4730,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 86,
+    "searchText": "wan 2.7 video  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan 2.7 is the latest generation AI video model, delivering enhanced motion smoothness, superior scene fidelity, and greater visual coherence.\nInference\nCommercial use\n",
+    "displayName": "Wan 2.7 Video Edit",
+    "fullPrice": 120,
+    "icon": "wan",
+    "id": "941b6623-67ec-46fc-8666-cd48adeee1f7",
+    "inputTypes": [
+      "text",
+      "video",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/wan/v2.7/edit-video",
+    "order": 5130,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 120,
+    "searchText": "wan 2.7 video edit  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Create a video using a depth map of the input video using Vace. Vace is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+    "displayName": "Wan Vace Depth",
+    "fullPrice": 180,
+    "icon": "wan",
+    "id": "kI2d0iV6d31kakRAx1YW",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "wan_vace_14b_depth",
+    "order": 6500,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 180,
+    "privacyPolicyUrl": null,
+    "searchText": "wan vace depth  wan video alibaba vace depth",
+    "termsUrls": []
+  },
+  {
+    "description": "Expand a video resolution using Vace. Vace is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+    "displayName": "Wan Vace Outpaint",
+    "fullPrice": 120,
+    "icon": "wan",
+    "id": "lI2d0iV6d31kakRAx1ZX",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "wan_vace_14b_outpaint",
+    "order": 6550,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 120,
+    "privacyPolicyUrl": null,
+    "searchText": "wan vace outpaint  wan video alibaba vace outpaint",
+    "termsUrls": []
+  },
+  {
+    "description": "Create a video using a pose analysis of the input video using Vace. Vace is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+    "displayName": "Wan Vace Pose",
+    "fullPrice": 120,
+    "icon": "wan",
+    "id": "mI2d0iV6d31kakRAx1AY",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "wan_vace_14b_pose",
+    "order": 6520,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 120,
+    "privacyPolicyUrl": null,
+    "searchText": "wan vace pose  wan video alibaba vace pose",
+    "termsUrls": []
+  },
+  {
+    "description": "Reframe a video using Vace. Vace is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+    "displayName": "Wan Vace Reframe",
+    "fullPrice": 120,
+    "icon": "wan",
+    "id": "nI2d0iV6d31kakRAx1BZ",
+    "inputTypes": [
+      "text",
+      "video"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": false,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "wan_vace_14b_reframe",
+    "order": 6530,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 120,
+    "privacyPolicyUrl": null,
+    "searchText": "wan vace reframe  wan video alibaba vace pose",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan is an advanced and powerful visual generation model developed by Tongyi Lab of Alibaba Group",
+    "displayName": "Wan Video",
+    "fullPrice": 24,
+    "icon": "wan",
+    "id": "jI2d0iV6d31kakRAx1XV",
+    "inputTypes": [
+      "text"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "wan-video/wan-2.1-1.3b",
+    "order": 6410,
+    "outputTypes": [
+      "video"
+    ],
+    "price": 24,
+    "privacyPolicyUrl": "https://replicate.com/privacy",
+    "searchText": "wan video  wan video alibaba tongyi",
+    "termsUrls": []
+  },
+  {
+    "description": "Wan 2.1 1.3b Video to Video. Wan is a powerful visual generation model developed by Tongyi Lab of Alibaba Group",
+    "displayName": "wan-2.1-1.3b-vid2vid",
+    "fullPrice": 24,
+    "icon": null,
+    "id": "K39hjJJbBlqq146zUFXt",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "lucataco/wan-2.1-1.3b-vid2vid",
+    "order": null,
+    "outputTypes": [],
+    "price": 24,
+    "searchText": "wan-2.1-1.3b-vid2vid  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Run Wan2.1 14b or 1.3b with a lora",
+    "displayName": "Wan2.1 With Lora ",
+    "fullPrice": 40,
+    "icon": null,
+    "id": "Bc2JTQQcoolPExwgya5G",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "fofr/wan2.1-with-lora",
+    "order": null,
+    "outputTypes": [],
+    "price": 40,
+    "searchText": "wan2.1 with lora   ",
+    "termsUrls": []
+  },
+  {
+    "description": "Transcribe audio to text.",
+    "displayName": "Whisper",
+    "fullPrice": 50,
+    "icon": "openai",
+    "id": "1769b5ea-5713-45ad-aa9e-c40c7894d04b",
+    "inputTypes": [
+      "text",
+      "audio"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isNew": true,
+    "isPerSecond": false,
+    "isVerified": true,
+    "name": "fal-ai/whisper",
+    "order": null,
+    "outputTypes": [
+      "text"
+    ],
+    "price": 50,
+    "searchText": "whisper  whisper transcribe speech to text transcription",
+    "termsUrls": []
+  },
+  {
+    "description": "XLabs I Flux Dev Controlnet",
+    "displayName": "XLabs I Flux Dev Controlnet",
+    "fullPrice": 10,
+    "icon": null,
+    "id": "bd0e5324-1ad2-4434-875b-4b0b52bf8948",
+    "inputTypes": [
+      "text",
+      "any",
+      "image"
+    ],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "xlabs-ai/flux-dev-controlnet",
+    "order": null,
+    "outputTypes": [],
+    "price": 10,
+    "searchText": "xlabs i flux dev controlnet  ",
+    "termsUrls": []
+  },
+  {
+    "description": "Robust Monocular Depth Estimation",
+    "displayName": "Z-Depth extractor",
+    "fullPrice": 0.3,
+    "icon": null,
+    "id": "Qqlk7UEginY2wSL92DSU",
+    "inputTypes": [],
+    "isByok": false,
+    "isLeaf": true,
+    "isPerSecond": false,
+    "isVerified": false,
+    "name": "cjwbw/midas",
+    "order": null,
+    "outputTypes": [],
+    "price": 0.3,
+    "searchText": "z-depth extractor  ",
+    "termsUrls": []
+  }
+]

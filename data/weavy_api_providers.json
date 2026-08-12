@@ -1,0 +1,16 @@
+{
+  "explicitUpstreamServices": {
+    "fal": 2,
+    "fal_imported": 88,
+    "replicate": 7,
+    "vertex": 4
+  },
+  "gateway": {
+    "confidence": "observed_in_browser_network",
+    "host": "api.weavy.ai",
+    "provider": "Weavy"
+  },
+  "models": 237,
+  "upstreamNotExposed": 136,
+  "warning": "These are serving services, not model owners. Missing values remain behind Weavy's server-side gateway."
+}

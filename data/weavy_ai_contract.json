@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "purpose": "Let an AI build Weavy flows without receiving the full node schema capture.",
+  "instructions": [
+    "Translate the user's goal into required input and output media types.",
+    "Call search_nodes with a short capability query; do not request the full catalog.",
+    "Choose a returned node id only after checking its inputs, outputs, and description.",
+    "Call get_node_schema for that one id and validate settings against its settings object.",
+    "Create the node with its action payload, apply only validated settings, then connect compatible port types.",
+    "If candidates are ambiguous or required input is missing, ask the user instead of guessing."
+  ],
+  "tools": [
+    {
+      "name": "search_nodes",
+      "description": "Return a small ranked candidate list from the local compact index.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "input_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "output_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10,
+            "default": 5
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    {
+      "name": "get_node_schema",
+      "description": "Load only the selected node's direct action, ports, defaults, and settings.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "dataFlow": "user goal -> search_nodes -> one node id -> get_node_schema -> validate -> create/connect/run"
+}

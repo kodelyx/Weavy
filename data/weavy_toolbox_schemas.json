@@ -1,0 +1,2738 @@
+{
+  "count": 41,
+  "nodes": [
+    {
+      "action": {
+        "description": "",
+        "displayName": "Prompt",
+        "icon": "prompt",
+        "id": "jzXJ8QEfxQm2sZfvzu7q",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 10,
+        "outputTypes": [
+          "text"
+        ],
+        "searchText": "prompt  ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": [],
+        "output": {
+          "prompt": {
+            "description": "Text prompt",
+            "format": "text",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Prompt",
+      "nodeType": "promptV3",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Import",
+        "icon": "import",
+        "id": "wkKkBSd0yrZGwbStnU6rClone",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 110,
+        "outputTypes": [
+          "any"
+        ],
+        "searchText": "file tool upload import ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "output": {
+          "file": {
+            "description": "The uploaded file",
+            "format": "uri",
+            "label": "File",
+            "order": 0,
+            "type": "any"
+          }
+        }
+      },
+      "kind": null,
+      "name": "File",
+      "nodeType": "import",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Export file",
+        "displayName": "Export",
+        "icon": "export",
+        "id": "JyaWOYxm1VCFqfdn6tFi",
+        "inputTypes": [
+          "any"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 210,
+        "outputTypes": [],
+        "searchText": "export tool upload import ",
+        "termsUrls": []
+      },
+      "description": "Export file",
+      "handles": {
+        "input": {
+          "file": {
+            "description": "File to download",
+            "label": "file",
+            "order": 0,
+            "required": false,
+            "type": "any"
+          }
+        },
+        "output": {}
+      },
+      "kind": null,
+      "name": "Export",
+      "nodeType": "export",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Preview",
+        "icon": "preview",
+        "id": "4cNmuft9fD7RgqTORSMF",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 310,
+        "outputTypes": [],
+        "searchText": "preview tool output show preview ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": [
+          "file"
+        ],
+        "output": []
+      },
+      "kind": null,
+      "name": "Preview",
+      "nodeType": "preview",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": null
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Import LoRA",
+        "icon": "import_lora",
+        "id": "UFI7BzaClSwt0kWYcPXfFufIcClone",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 510,
+        "outputTypes": [
+          "lora"
+        ],
+        "searchText": "import lora tool upload import ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "output": [
+          "loRA_URL"
+        ]
+      },
+      "kind": null,
+      "name": "Import LoRA",
+      "nodeType": "multilora",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Import Multiple LoRAs",
+        "icon": "multi_lora",
+        "id": "MAex3aXoXFNntex5xHRS",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 610,
+        "outputTypes": [],
+        "searchText": "import multiple loras tool upload import ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "output": [
+          "loRA_URL",
+          "weight"
+        ]
+      },
+      "kind": null,
+      "name": "Import Multiple LoRAs",
+      "nodeType": "multilora",
+      "params": {
+        "lora1": 0.5
+      },
+      "schema": {
+        "lora1": {
+          "default": 0.5,
+          "max": 20,
+          "mix": 0,
+          "order": 0,
+          "title": "Lora 1",
+          "type": "number"
+        }
+      },
+      "status": "ok",
+      "version": null
+    },
+    {
+      "action": {
+        "description": "Rotate or flip images and videos",
+        "displayName": "Rotate and flip",
+        "icon": "rotate",
+        "id": "cb8bdb07-1e77-5b12-ad14-c0352862bf85",
+        "inputTypes": [
+          "any"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7000,
+        "outputTypes": [
+          "any"
+        ],
+        "searchText": "rotate and flip  ",
+        "termsUrls": []
+      },
+      "description": "Rotate or flip images and videos",
+      "handles": {
+        "input": {
+          "file": {
+            "description": "Image to rotate. Accepts images and videos.",
+            "format": "uri",
+            "id": "file",
+            "label": "input",
+            "order": 0,
+            "required": true,
+            "type": "any"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "",
+            "format": "uri",
+            "id": "output",
+            "order": 0,
+            "required": true,
+            "type": "any"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Rotate and flip",
+      "nodeType": "rotate",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "A palette of solid colors, output as a stacked image and a list of hex codes.",
+        "displayName": "Color palette",
+        "icon": "color_palette",
+        "id": "color_palette",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7100,
+        "outputTypes": [
+          "text",
+          "image"
+        ],
+        "searchText": "color palette  ",
+        "termsUrls": []
+      },
+      "description": "A palette of solid colors, output as a stacked image and a list of hex codes.",
+      "handles": {
+        "input": {},
+        "output": {
+          "image": {
+            "description": "",
+            "format": "uri",
+            "id": "image",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          },
+          "text": {
+            "description": "Hex codes separated by *",
+            "format": "uri",
+            "id": "text",
+            "order": 1,
+            "required": false,
+            "type": "text"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Color palette",
+      "nodeType": "color_palette",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Adjust the colors of an image or video.",
+        "displayName": "Color correction",
+        "icon": "color_correction",
+        "id": "color_correction",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7200,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "color correction  ",
+        "termsUrls": []
+      },
+      "description": "",
+      "handles": {
+        "input": {
+          "file": {
+            "description": "File",
+            "format": "uri",
+            "id": "file",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Result",
+            "format": "uri",
+            "id": "result",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Color correction",
+      "nodeType": "color_correction",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Color grading node for images",
+        "displayName": "Levels",
+        "icon": "levels",
+        "id": "levels",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": false,
+        "order": 7300,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "levels  ",
+        "termsUrls": []
+      },
+      "description": "",
+      "handles": {
+        "input": {
+          "file": {
+            "description": "File",
+            "format": "uri",
+            "id": "file",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Result",
+            "format": "uri",
+            "id": "result",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Levels",
+      "nodeType": "levels",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Play two or more videos back-to-back into a single video.",
+        "displayName": "Video Concatenator",
+        "icon": "video_concatenator",
+        "id": "video_concatenator",
+        "inputTypes": [
+          "video"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7300,
+        "outputTypes": [
+          "video"
+        ],
+        "searchText": "video concatenator  ",
+        "termsUrls": []
+      },
+      "description": "Play two or more videos back-to-back into a single video",
+      "handles": {
+        "input": {
+          "video_1": {
+            "description": "First video in the sequence (sets the output size)",
+            "format": "uri",
+            "id": "video_1",
+            "label": "Video 1",
+            "order": 0,
+            "required": false,
+            "type": "video"
+          },
+          "video_2": {
+            "description": "Second video in the sequence",
+            "format": "uri",
+            "id": "video_2",
+            "label": "Video 2",
+            "order": 1,
+            "required": false,
+            "type": "video"
+          }
+        },
+        "output": {
+          "video": {
+            "description": "Concatenated video",
+            "format": "uri",
+            "id": "video",
+            "label": "Output",
+            "order": 0,
+            "required": false,
+            "type": "video"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Video Concatenator",
+      "nodeType": "video_concatenator",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Compose layers of images",
+        "displayName": "Compositor",
+        "icon": "compositor",
+        "id": "72FrqJVgOSWLc2ZqcT0p",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7310,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "compositor  ",
+        "termsUrls": []
+      },
+      "description": "Compose layers of images",
+      "handles": {
+        "input": {
+          "background": {
+            "description": "",
+            "format": "uri",
+            "id": "QL7tunFcDDYMAIHsR09P",
+            "order": 0,
+            "required": false
+          },
+          "layer_1": {
+            "description": "",
+            "format": "uri",
+            "id": "FC4JC5FMAA1SBQZ9W8Y1",
+            "order": "1",
+            "required": false
+          }
+        },
+        "output": {
+          "image": {
+            "label": "image",
+            "order": 0,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Compositor",
+      "nodeType": "compv3",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Painter",
+        "icon": "painter",
+        "id": "1NG8fu0qDZ6yi0i5JAhWClone",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7410,
+        "outputTypes": [
+          "mask",
+          "image"
+        ],
+        "searchText": "painter tool paint mask matte painter ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": {
+          "image": {
+            "description": "Image background",
+            "format": "uri",
+            "id": "yKxtQ1K8B3aGmJkwG92d",
+            "label": "image",
+            "order": 0,
+            "required": false,
+            "type": "image"
+          }
+        },
+        "output": {
+          "mask": {
+            "description": "Brush strokes without the background",
+            "format": "uri",
+            "id": "Z4LL38ClXImWIydBx8Lh",
+            "order": 1,
+            "type": "mask"
+          },
+          "result": {
+            "description": "Result image",
+            "format": "uri",
+            "id": "6VZ7VaxAnTJjh4OeA4ju",
+            "order": 0,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Painter",
+      "nodeType": "painterV2",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Crop",
+        "icon": "crop",
+        "id": "NjsDLqnq74oPb8J3JnRSClone",
+        "inputTypes": [
+          "any"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7510,
+        "outputTypes": [
+          "any"
+        ],
+        "searchText": "crop  ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": {
+          "file": {
+            "description": "File to be cropped. Accepts images and videos.",
+            "id": "xK9mP2vR8nL4jH7tY3wQ",
+            "label": "file",
+            "required": true,
+            "type": "any"
+          }
+        },
+        "output": {
+          "file": {
+            "description": "Cropped file.",
+            "id": "xK9mP2vR8nL4jH7tY3wR",
+            "label": "file",
+            "order": 0,
+            "type": "any"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Crop",
+      "nodeType": "crop",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Resize",
+        "icon": "resize",
+        "id": "eotVNsMcmBQ64gVfdIsTClone",
+        "inputTypes": [
+          "any"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7610,
+        "outputTypes": [
+          "any"
+        ],
+        "searchText": "resize  ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": {
+          "image": {
+            "description": "Image to resize. Accepts images and videos.",
+            "id": "Hy7kL9mN4pQ2wX8vR5tZ",
+            "label": "file",
+            "order": 0,
+            "required": true,
+            "type": "any"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Resized file.",
+            "id": "Hy7kL9mN4pQ2wX8vR5tA",
+            "label": "result",
+            "order": 0,
+            "type": "any"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Resize",
+      "nodeType": "resize",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Blur image",
+        "displayName": "Blur",
+        "icon": "blur",
+        "id": "3w4OpEQntPBVwfbTkFnBClone",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7710,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "blur  ",
+        "termsUrls": []
+      },
+      "description": "Blur image",
+      "handles": {
+        "input": {
+          "file": {
+            "description": "Image to blur",
+            "id": "Kj9mP4nR2vX7tL5wQ8sY",
+            "label": "image",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Result of the blur operation.",
+            "id": "Kj9mP4nR2vX7tL5wQ8sZ",
+            "label": "image",
+            "order": 0,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Blur",
+      "nodeType": "blur",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Invert the colors of the input image",
+        "displayName": "Invert",
+        "icon": "invert",
+        "id": "58hF2wOPbFLhWtujOwU7Clone",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 7810,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "invert  ",
+        "termsUrls": []
+      },
+      "description": "Invert the colors of the input image",
+      "handles": {
+        "input": {
+          "file": {
+            "description": "image to invert",
+            "label": "image",
+            "type": "image"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "inverted image",
+            "label": "image",
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Invert",
+      "nodeType": "invert",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Automatic objects masks extraction. Click to select, hold shift to add or alt/options to subtract",
+        "displayName": "Mask Extractor",
+        "icon": "masks",
+        "id": "a2Q6sROAZ5NDbT7lRFnzClone",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": true,
+        "name": "bria_masks",
+        "order": 8010,
+        "outputTypes": [
+          "mask",
+          "image"
+        ],
+        "privacyPolicyUrl": "https://bria.ai/privacy-policy",
+        "searchText": "masks extractor  ",
+        "termsUrls": [
+          "https://bria.ai/terms-and-conditions"
+        ]
+      },
+      "description": "Automatic objects masks extraction. Click to select, hold shift to add or alt/options to subtract",
+      "handles": {
+        "input": {
+          "image": {
+            "description": "The image to edit",
+            "format": "uri",
+            "id": "a2Q6sROAZ5NDbT7lRFnz",
+            "order": 0,
+            "required": false,
+            "type": "image"
+          }
+        },
+        "output": {
+          "image_with_alpha": {
+            "description": "The image with alpha",
+            "format": "uri",
+            "id": "a2Q6sROAZ5NDbT7lRFnA",
+            "order": 0,
+            "type": "image"
+          },
+          "mask": {
+            "description": "The mask",
+            "format": "uri",
+            "id": "a2Q6sROAZ5NDbT7lRFnB",
+            "order": 1,
+            "type": "mask"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Masks Extractor",
+      "nodeType": "masks",
+      "params": {
+        "feather": 0,
+        "matte_choker": 0
+      },
+      "schema": {
+        "feather": {
+          "default": 0,
+          "description": "Applies blur to the selected masks",
+          "max": 20,
+          "min": 0,
+          "order": 1,
+          "title": "Feather Mask",
+          "type": "integer"
+        },
+        "invert": {
+          "default": false,
+          "description": "",
+          "order": 2,
+          "required": false,
+          "title": "Invert",
+          "type": "boolean"
+        },
+        "matte_choker": {
+          "default": 0,
+          "description": "Add or reduce pixels to the masks edges",
+          "max": 100,
+          "min": -100,
+          "order": 0,
+          "title": "Shrink / Expand mask",
+          "type": "integer"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Automatically generate a mask based on a text prompt",
+        "displayName": "Mask by Text",
+        "icon": "masks",
+        "id": "da813f69-224a-4b01-a3ca-03c7b088e21f",
+        "inputTypes": [
+          "image",
+          "text"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": false,
+        "name": "tmappdev/lang-segment-anything",
+        "order": 8020,
+        "outputTypes": [
+          "mask"
+        ],
+        "privacyPolicyUrl": "https://replicate.com/privacy",
+        "searchText": "mask by text  ",
+        "termsUrls": [
+          "https://github.com/luca-medeiros/lang-segment-anything/blob/main/LICENSE"
+        ]
+      },
+      "description": "Automatically generate a mask based on a text prompt",
+      "handles": {
+        "input": {
+          "image": {
+            "description": "Path to the input image",
+            "format": "uri",
+            "id": "eb819105-e84d-4d38-93d3-afef7b27bc00",
+            "label": "image",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          },
+          "text_prompt": {
+            "description": "Text prompt for segmentation",
+            "format": "text",
+            "id": "f4c7cda1-7d3d-437b-8c66-415bb3ab1907",
+            "label": "prompt",
+            "order": 1,
+            "required": true,
+            "type": "text"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Result mask",
+            "format": "uri",
+            "id": "g4c7cda1-7d3d-437b-8c66-415bb3ab1918",
+            "label": "Mask",
+            "order": 0,
+            "required": true,
+            "type": "mask"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "Path to the input image",
+              "id": "image",
+              "required": true,
+              "title": "image",
+              "validTypes": [
+                "image"
+              ]
+            },
+            null
+          ],
+          [
+            {
+              "description": "Text prompt for segmentation",
+              "id": "text_prompt",
+              "required": true,
+              "title": "prompt",
+              "validTypes": [
+                "text"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "Automatically generate a mask based on a text prompt",
+          "name": "tmappdev/lang-segment-anything",
+          "service": "replicate",
+          "type": "predefined",
+          "version": "891411c38a6ed2d44c004b7b9e44217df7a5b07848f29ddefd2e28bc7cbf93bc"
+        },
+        "outputs": [
+          {
+            "dataType": "image",
+            "description": "Result mask",
+            "id": "result",
+            "title": "Mask"
+          }
+        ],
+        "parameters": [],
+        "type": "wildcard"
+      },
+      "name": "Mask by Text",
+      "nodeType": "custommodelV2",
+      "params": {},
+      "schema": {},
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Channels",
+        "icon": "channels",
+        "id": "yld4gHAgThz7ryeYEMewClone",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 8110,
+        "outputTypes": [
+          "mask"
+        ],
+        "searchText": "channels  ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": {
+          "map": {
+            "description": "The image to extract the channel from",
+            "label": "image",
+            "order": 0,
+            "type": "image"
+          }
+        },
+        "output": {
+          "matte": {
+            "description": "The channel mask",
+            "label": "mask",
+            "order": 0,
+            "type": "mask"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Channels",
+      "nodeType": "channels",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Grow or shrink mask input",
+        "displayName": "Matte Grow / Shrink",
+        "icon": "dilation_erosion",
+        "id": "dilation_erosion",
+        "inputTypes": [
+          "mask"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": false,
+        "order": 8200,
+        "outputTypes": [
+          "mask"
+        ],
+        "searchText": "matte grow / shrink  ",
+        "termsUrls": []
+      },
+      "description": "",
+      "handles": {
+        "input": {
+          "input": {
+            "description": "Input",
+            "format": "uri",
+            "id": "input",
+            "label": "Input",
+            "order": 0,
+            "required": true,
+            "type": "mask"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Result",
+            "format": "uri",
+            "id": "result",
+            "label": "Result",
+            "order": 0,
+            "required": true,
+            "type": "mask"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Matte grow / shrink",
+      "nodeType": "dilation_erosion",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Apply alpha to image",
+        "displayName": "Merge Alpha",
+        "icon": "merge_alpha",
+        "id": "KiR8ftfz3wHaQxylpTXbClone",
+        "inputTypes": [
+          "image",
+          "mask"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 8210,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "merge alpha  ",
+        "termsUrls": []
+      },
+      "description": "Apply alpha to image",
+      "handles": {
+        "input": {
+          "alpha_image": {
+            "description": "Alpha image",
+            "id": "Hy7kL9mN4pQ2wX8vR5tZ",
+            "label": "Alpha Image",
+            "order": 1,
+            "required": true,
+            "type": "mask"
+          },
+          "image": {
+            "description": "Image to merge with alpha",
+            "id": "Hy7kL9mN4pQ2wX8vR5tZ",
+            "label": "Image",
+            "order": 0,
+            "required": true,
+            "type": "image"
+          }
+        },
+        "output": {
+          "image_with_alpha": {
+            "description": "Image with alpha",
+            "id": "Hy7kL9mN4pQ2wX8vR5tA",
+            "label": "image_with_alpha",
+            "order": 0,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Merge Alpha",
+      "nodeType": "merge_alpha",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "extract foreground of a video",
+        "displayName": "Video Matte",
+        "icon": "video_matte",
+        "id": "rjspb5lNZWTlr20jPGxy",
+        "inputTypes": [
+          "video"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "name": "arielreplicate/robust_video_matting",
+        "order": 8220,
+        "outputTypes": [
+          "video"
+        ],
+        "searchText": "extract video matte  matte matting alpha mask",
+        "termsUrls": []
+      },
+      "description": "extract foreground of a video",
+      "handles": {
+        "input": {
+          "input_video": {
+            "description": "Video to segment.",
+            "format": "uri",
+            "id": "64cbdd8c-0e67-404f-9312-35125e517bdd",
+            "label": "video",
+            "order": 0,
+            "required": true,
+            "type": "video"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "The result video",
+            "format": "uri",
+            "id": "980410b2-445b-465f-8498-2bbcbddac4df",
+            "label": "video",
+            "order": 0,
+            "required": false,
+            "type": "video"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "Video to segment.",
+              "id": "input_video",
+              "required": true,
+              "title": "Input Video",
+              "validTypes": [
+                "video"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "extract foreground of a video",
+          "name": "arielreplicate/robust_video_matting",
+          "type": "predefined",
+          "version": "73d2128a371922d5d1abf0712a1d974be0e4e2358cc1218e4e34714767232bac"
+        },
+        "outputs": [
+          {
+            "dataType": "video",
+            "description": "The result video",
+            "id": "result",
+            "title": "video"
+          }
+        ],
+        "parameters": [
+          [
+            {
+              "constraint": {
+                "options": [
+                  "green-screen",
+                  "alpha-mask",
+                  "foreground-mask"
+                ],
+                "type": "enum"
+              },
+              "defaultValue": {
+                "type": "string",
+                "value": "alpha-mask"
+              },
+              "description": "An enumeration.",
+              "id": "output_type",
+              "title": "Output Type"
+            },
+            {
+              "data": {
+                "type": "string",
+                "value": "alpha-mask"
+              },
+              "type": "value"
+            }
+          ]
+        ],
+        "type": "wildcard"
+      },
+      "name": "Extract Video Matte",
+      "nodeType": "custommodelV2",
+      "params": {
+        "input_video": "",
+        "output_type": "alpha-mask"
+      },
+      "schema": {
+        "input_video": {
+          "description": "Video to segment.",
+          "format": "uri",
+          "order": 0,
+          "required": true,
+          "title": "Input Video",
+          "type": "string"
+        },
+        "output_type": {
+          "default": "alpha-mask",
+          "description": "An enumeration.",
+          "options": [
+            "green-screen",
+            "alpha-mask",
+            "foreground-mask"
+          ],
+          "order": 1,
+          "required": false,
+          "title": "Output Type",
+          "type": "enum"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Generate a black and white alpha video based on prompt input.",
+        "displayName": "Video Mask by Text",
+        "icon": "video_matte",
+        "id": "c7c6ac98-030b-40cd-8028-f47c84e89496",
+        "inputTypes": [
+          "video",
+          "text"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": true,
+        "name": "fal-ai/sam-3/video",
+        "order": 8230,
+        "outputTypes": [
+          "mask"
+        ],
+        "privacyPolicyUrl": null,
+        "searchText": "video mask by text  matte matting alpha mask",
+        "termsUrls": []
+      },
+      "description": "Generate a black and white alpha video based on prompt input.",
+      "handles": {
+        "input": {
+          "text_prompt": {
+            "description": "Text prompt for segmentation",
+            "format": "text",
+            "id": "787115e4-53ca-44ab-bf30-f90562d8dd0d",
+            "label": "prompt",
+            "required": true,
+            "type": "text"
+          },
+          "video_url": {
+            "description": "The URL of the video to be segmented.",
+            "format": "text",
+            "id": "c5287cfb-dc03-49e8-a1f0-c89b384c21bf",
+            "label": "video",
+            "required": true,
+            "type": "video"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Result mask",
+            "format": "uri",
+            "id": "g4c7cda1-7d3d-437b-8c66-415bb3ab1918",
+            "label": "Mask",
+            "order": 0,
+            "required": true,
+            "type": "mask"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "The URL of the video to be segmented.",
+              "id": "video_url",
+              "required": true,
+              "title": "video",
+              "validTypes": [
+                "video"
+              ]
+            },
+            null
+          ],
+          [
+            {
+              "description": "Text prompt for segmentation",
+              "id": "text_prompt",
+              "required": true,
+              "title": "prompt",
+              "validTypes": [
+                "text"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "Generate a black and white alpha video based on prompt input.",
+          "name": "fal-ai/sam-3/video",
+          "service": "fal_imported",
+          "type": "predefined",
+          "version": "fal-ai/sam-3/video"
+        },
+        "outputs": [
+          {
+            "dataType": "image",
+            "description": "Result mask",
+            "id": "result",
+            "title": "Mask"
+          }
+        ],
+        "parameters": [
+          [
+            {
+              "constraint": {
+                "max": 1,
+                "min": 0.1,
+                "type": "float_with_limits"
+              },
+              "defaultValue": {
+                "type": "float",
+                "value": 0.5
+              },
+              "description": "Detection confidence threshold (0.0-1.0). Lower = more detections but less precise. ",
+              "id": "detection_threshold",
+              "title": "Detection Threshold"
+            },
+            {
+              "data": {
+                "type": "float",
+                "value": 0.5
+              },
+              "type": "value"
+            }
+          ]
+        ],
+        "type": "wildcard"
+      },
+      "name": "Video Mask by Text",
+      "nodeType": "custommodelV2",
+      "params": {
+        "apply_mask": false,
+        "detection_threshold": 0.5
+      },
+      "schema": {
+        "detection_threshold": {
+          "default": 0.5,
+          "description": "Detection confidence threshold (0.0-1.0). Lower = more detections but less precise. ",
+          "max": 1,
+          "min": 0.1,
+          "required": false,
+          "title": "Detection Threshold",
+          "type": "number"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Extracts an image for a given frame",
+        "displayName": "Extract Video Frame",
+        "icon": "extract_video_frame",
+        "id": "A6yXk3wGHFDOVkiWzT7AClone",
+        "inputTypes": [
+          "video"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 8310,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "extract video frame  ",
+        "termsUrls": []
+      },
+      "description": "Extracts an image for a given frame",
+      "handles": {
+        "input": {
+          "file": {
+            "label": "Video",
+            "order": 0,
+            "type": "video"
+          }
+        },
+        "output": {
+          "result": {
+            "label": "Image",
+            "order": 0,
+            "type": "image"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Extract Video Frame",
+      "nodeType": "extract_video_frame",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Convert a video into a GIF",
+        "displayName": "Video to GIF",
+        "icon": "weavy",
+        "id": "4adfba3b-d861-4509-b90e-e4dfcee854fa",
+        "inputTypes": [
+          "video"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": true,
+        "name": "fofr/toolkit",
+        "order": 8330,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "video to gif  ",
+        "termsUrls": []
+      },
+      "description": "Convert a video into a GIF",
+      "handles": {
+        "input": {
+          "input_file": {
+            "description": "Video to covert into a GIF",
+            "format": "uri",
+            "id": "e642f748-1f7b-4996-82eb-29910faca3e3",
+            "label": "video",
+            "order": 1,
+            "required": true,
+            "type": "video"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "GIF image",
+            "format": "uri",
+            "id": "e642f748-1f7b-4996-82eb-29910faca3e3",
+            "label": "GIF",
+            "order": 1,
+            "type": "image"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "Video to covert into a GIF",
+              "id": "input_file",
+              "required": true,
+              "title": "video",
+              "validTypes": [
+                "video"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "Video toolkit \u2013 convert, make GIFs, extract audio",
+          "name": "fofr/toolkit",
+          "service": "replicate",
+          "type": "user_defined",
+          "version": "19711d11c243800f08364ba9ae9078f54874f21363ba445dabdbf082b5d69565"
+        },
+        "outputs": [
+          {
+            "dataType": "image",
+            "description": "GIF image",
+            "id": "result",
+            "title": "GIF"
+          }
+        ],
+        "parameters": [
+          [
+            {
+              "constraint": {
+                "type": "integer"
+              },
+              "defaultValue": {
+                "type": "integer",
+                "value": 12
+              },
+              "description": "frames per second. 0 - defaults to 12fps",
+              "id": "fps",
+              "title": "Frame per second"
+            },
+            {
+              "data": {
+                "type": "integer",
+                "value": 12
+              },
+              "type": "value"
+            }
+          ]
+        ],
+        "type": "wildcard"
+      },
+      "name": "Video to GIF",
+      "nodeType": "custommodelV2",
+      "params": {
+        "fps": 12,
+        "task": "convert_input_to_gif"
+      },
+      "schema": {
+        "fps": {
+          "default": 12,
+          "description": "frames per second. 0 - defaults to 12fps",
+          "order": 2,
+          "required": false,
+          "title": "Frame per second",
+          "type": "input-integer"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Join multiple text inputs to one output.",
+        "displayName": "Prompt Concatenator",
+        "icon": "prompt_concat",
+        "id": "Skt5hMt1fJCOrLtaOBERClone",
+        "inputTypes": [
+          "text"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 8410,
+        "outputTypes": [
+          "text"
+        ],
+        "searchText": "prompt concatenator  ",
+        "termsUrls": []
+      },
+      "description": "Join multiple text inputs to one output.",
+      "handles": {
+        "input": {
+          "prompt1": {
+            "description": "Text input",
+            "format": "text",
+            "label": "text_1",
+            "order": 0,
+            "type": "text"
+          },
+          "prompt2": {
+            "description": "Text input",
+            "format": "text",
+            "label": "text_2",
+            "order": 1,
+            "type": "text"
+          }
+        },
+        "output": {
+          "prompt": {
+            "description": "The combined text",
+            "format": "text",
+            "label": "combined_text",
+            "type": "text"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Prompt Concatenator",
+      "nodeType": "prompt_concat",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Enhance your prompt with an LLM",
+        "displayName": "Prompt Enhancer",
+        "icon": "prompt_enhance",
+        "id": "7gKmskdJQ28nMlxdB6aR",
+        "inputTypes": [
+          "text"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": true,
+        "name": "any_llm",
+        "order": 8510,
+        "outputTypes": [
+          "text"
+        ],
+        "privacyPolicyUrl": null,
+        "searchText": "prompt enhancer  ",
+        "termsUrls": []
+      },
+      "description": "Enhance your prompt with an LLM",
+      "handles": {
+        "input": {
+          "prompt": {
+            "description": "The prompt you wish to enahnce",
+            "format": "text",
+            "order": 0,
+            "required": true,
+            "type": "text"
+          }
+        },
+        "output": {
+          "enhanced_prompt": {
+            "description": "The enhanced prompt",
+            "format": "text",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": {
+        "images": [],
+        "model": {
+          "data": {
+            "type": "string",
+            "value": "google/gemini-3-pro"
+          },
+          "type": "value"
+        },
+        "systemPrompt": {
+          "data": {
+            "type": "string",
+            "value": "Your job is to write prompts for text-to-image models. Your input will be a general description for the scene, You should write a detailed prompt without any additions. not longer than 3 sentences."
+          },
+          "type": "value"
+        },
+        "type": "prompt_enhancer"
+      },
+      "name": "Prompt Enhancer",
+      "nodeType": "custommodelV2",
+      "params": {
+        "model": "google/gemini-3-pro",
+        "system_prompt": "Your job is to write prompts for text-to-image models. Your input will be a general description for the scene, You should write a detailed prompt without any additions. not longer than 3 sentences."
+      },
+      "schema": {
+        "model": {
+          "default": "google/gemini-3-pro",
+          "description": "Name of the model to use",
+          "options": [
+            "anthropic/claude-opus-5",
+            "anthropic/claude-sonnet-5",
+            "anthropic/claude-opus-4-7",
+            "anthropic/claude-opus-4-6",
+            "anthropic/claude-sonnet-4-6",
+            "anthropic/claude-haiku-4-5",
+            "google/gemini-3.1-pro",
+            "google/gemini-3.6-flash",
+            "google/gemini-3.5-flash-lite",
+            "google/gemini-3-pro",
+            "google/gemini-2.5-flash",
+            "google/gemini-2.5-flash-lite",
+            "openai/gpt-5.6-sol",
+            "openai/gpt-5.6-terra",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-4o",
+            "openai/gpt-4.1",
+            "meta-llama/llama-4-maverick",
+            "meta-llama/llama-4-scout"
+          ],
+          "order": 0,
+          "title": "Model Name",
+          "type": "enum"
+        },
+        "system_prompt": {
+          "default": "Your job is to write prompts for text-to-image models. Specifically for gaming assets. Your input will be a general description for the scene, You should write a prompt without any additions",
+          "description": "Describe the purpose of the model (e.g \"you are a prompt generator\")",
+          "order": 1,
+          "title": "Model's Instructions",
+          "type": "text"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Run any large language model.",
+        "displayName": "Any LLM",
+        "icon": "any_llm",
+        "id": "UngEhPkxIT2o0R769zwK",
+        "inputTypes": [
+          "image",
+          "text"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": true,
+        "name": "any_llm",
+        "order": 8610,
+        "outputTypes": [
+          "text"
+        ],
+        "privacyPolicyUrl": null,
+        "searchText": "any llm  ",
+        "termsUrls": []
+      },
+      "description": "Run any large language model.",
+      "handles": {
+        "input": {
+          "image": {
+            "description": "Image to analyse",
+            "format": "uri",
+            "label": "image 1",
+            "order": 2,
+            "required": false,
+            "type": "image"
+          },
+          "prompt": {
+            "description": "Describe your request from the model",
+            "format": "text",
+            "order": 0,
+            "required": true,
+            "type": "text"
+          },
+          "system_prompt": {
+            "description": "Describe the purpose of the model (e.g \"you are a prompt generator\")",
+            "format": "text",
+            "order": 1,
+            "required": false,
+            "type": "text"
+          }
+        },
+        "output": {
+          "text": {
+            "description": "The LLM response",
+            "format": "text",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": {
+        "images": [
+          [
+            "image",
+            null
+          ]
+        ],
+        "model": {
+          "data": {
+            "type": "string",
+            "value": "google/gemini-3-pro"
+          },
+          "type": "value"
+        },
+        "temperature": {
+          "data": {
+            "type": "float",
+            "value": 0
+          },
+          "type": "value"
+        },
+        "thinking": {
+          "data": {
+            "type": "boolean",
+            "value": false
+          },
+          "type": "value"
+        },
+        "type": "any_llm"
+      },
+      "name": "Any LLM",
+      "nodeType": "custommodelV2",
+      "params": {
+        "model": "google/gemini-3-pro",
+        "temperature": 0
+      },
+      "schema": {
+        "model": {
+          "default": "google/gemini-3-pro",
+          "description": "Name of the model to use",
+          "options": [
+            "anthropic/claude-opus-5",
+            "anthropic/claude-sonnet-5",
+            "anthropic/claude-opus-4-7",
+            "anthropic/claude-opus-4-6",
+            "anthropic/claude-sonnet-4-6",
+            "anthropic/claude-haiku-4-5",
+            "google/gemini-3.1-pro",
+            "google/gemini-3.6-flash",
+            "google/gemini-3.5-flash-lite",
+            "google/gemini-3-pro",
+            "google/gemini-2.5-flash",
+            "google/gemini-2.5-flash-lite",
+            "openai/gpt-5.6-sol",
+            "openai/gpt-5.6-terra",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-4o",
+            "openai/gpt-4.1",
+            "meta-llama/llama-4-maverick",
+            "meta-llama/llama-4-scout"
+          ],
+          "order": 0,
+          "title": "Model Name",
+          "type": "enum"
+        },
+        "temperature": {
+          "default": 0,
+          "description": "This setting influences the variety in the model\u2019s responses. Lower values lead to more predictable and typical responses, while higher values encourage more diverse and less common responses. At 0, the model always gives the same response for a given input.",
+          "max": 2,
+          "min": 0,
+          "title": "Temperature",
+          "type": "number"
+        },
+        "thinking": {
+          "default": false,
+          "description": "Enhanced reasoning capabilities for complex task (For supported models only)",
+          "order": 5,
+          "required": false,
+          "title": "Thinking",
+          "type": "boolean"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Describes an image",
+        "displayName": "Image Describer",
+        "icon": "image_decribe",
+        "id": "QmgEhPkxIT2o0R769yvK",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": true,
+        "name": "any_llm",
+        "order": 8710,
+        "outputTypes": [
+          "text"
+        ],
+        "privacyPolicyUrl": null,
+        "searchText": "image describer  ",
+        "termsUrls": []
+      },
+      "description": "Describes an image",
+      "handles": {
+        "input": {
+          "image": {
+            "description": "Image to analyse",
+            "format": "uri",
+            "order": 2,
+            "required": true,
+            "type": "image"
+          }
+        },
+        "output": {
+          "text": {
+            "description": "The LLM response",
+            "format": "text",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": {
+        "images": [
+          [
+            "image",
+            null
+          ]
+        ],
+        "model": {
+          "data": {
+            "type": "string",
+            "value": "google/gemini-3-pro"
+          },
+          "type": "value"
+        },
+        "prompt": {
+          "data": {
+            "type": "string",
+            "value": "You are an expert image analyst tasked with providing detailed accurate and helpful descriptions of images. Your goal is to make visual content accessible through clear comprehensive text descriptions. Be objective and factual using clear descriptive language. Organize information from general to specific and include relevant context. Start with a brief overview of what the image shows then describe the main subjects and setting. Include visual details like colors lighting, textures, style, genre, contrast and composition. Transcribe any visible text accurately. Use specific concrete language and mention spatial relationships. For people focus on actions clothing and general appearance respectfully. For data visualizations explain the information presented. Write as if describing to someone who cannot see the image including important context for understanding. Balance thoroughness with clarity and provide descriptions in natural flowing narrative form. Your description shouldn't be longer than 500 characters"
+          },
+          "type": "value"
+        },
+        "type": "image_describer"
+      },
+      "name": "Image Describer",
+      "nodeType": "custommodelV2",
+      "params": {
+        "model": "google/gemini-3-pro",
+        "prompt": "You are an expert image analyst tasked with providing detailed accurate and helpful descriptions of images. Your goal is to make visual content accessible through clear comprehensive text descriptions. Be objective and factual using clear descriptive language. Organize information from general to specific and include relevant context. Start with a brief overview of what the image shows then describe the main subjects and setting. Include visual details like colors lighting, textures, style, genre, contrast and composition. Transcribe any visible text accurately. Use specific concrete language and mention spatial relationships. For people focus on actions clothing and general appearance respectfully. For data visualizations explain the information presented. Write as if describing to someone who cannot see the image including important context for understanding. Balance thoroughness with clarity and provide descriptions in natural flowing narrative form. Your description shouldn't be longer than 500 characters"
+      },
+      "schema": {
+        "model": {
+          "default": "google/gemini-3-pro",
+          "description": "Name of the model to use",
+          "options": [
+            "anthropic/claude-opus-5",
+            "anthropic/claude-sonnet-5",
+            "anthropic/claude-opus-4-7",
+            "anthropic/claude-opus-4-6",
+            "anthropic/claude-sonnet-4-6",
+            "anthropic/claude-haiku-4-5",
+            "google/gemini-3.1-pro",
+            "google/gemini-3.6-flash",
+            "google/gemini-3.5-flash-lite",
+            "google/gemini-3-pro",
+            "google/gemini-2.5-flash",
+            "google/gemini-2.5-flash-lite",
+            "openai/gpt-5.6-sol",
+            "openai/gpt-5.6-terra",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-4o",
+            "openai/gpt-4.1",
+            "meta-llama/llama-4-maverick",
+            "meta-llama/llama-4-scout"
+          ],
+          "order": 0,
+          "title": "Model Name",
+          "type": "enum"
+        },
+        "prompt": {
+          "default": "You are an expert image analyst tasked with providing detailed accurate and helpful descriptions of images. Your goal is to make visual content accessible through clear comprehensive text descriptions. Be objective and factual using clear descriptive language. Organize information from general to specific and include relevant context. Start with a brief overview of what the image shows then describe the main subjects and setting. Include visual details like colors lighting, textures, style, genre, contrast and composition. Transcribe any visible text accurately. Use specific concrete language and mention spatial relationships. For people focus on actions clothing and general appearance respectfully. For data visualizations explain the information presented. Write as if describing to someone who cannot see the image including important context for understanding. Balance thoroughness with clarity and provide descriptions in natural flowing narrative form. Your description shouldn't be longer than 500 characters",
+          "description": "Instruction for the model",
+          "order": 1,
+          "title": "Model instructions",
+          "type": "text"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Run any video-capable LLM with fal. Analyze, summarize, and understand video files using Gemini (Google) models. Supports mp4, mpeg, mov, webm, and YouTube links. Powered by OpenRouter.",
+        "displayName": "Video Describer",
+        "icon": "video_decribe",
+        "id": "666e9561-e015-489d-a29a-df6d43fe86b7",
+        "inputTypes": [
+          "video"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": true,
+        "name": "openrouter/router/video/enterprise",
+        "order": 8721,
+        "outputTypes": [
+          "text"
+        ],
+        "privacyPolicyUrl": null,
+        "searchText": "video describer  ",
+        "termsUrls": []
+      },
+      "description": "Run any video-capable LLM with fal. Analyze, summarize, and understand video files using Gemini (Google) models. Supports mp4, mpeg, mov, webm, and YouTube links. Powered by OpenRouter.",
+      "handles": {
+        "input": {
+          "video_1": {
+            "description": "The video to analyze",
+            "format": "text",
+            "id": "42ecbfd5-92a5-426a-b86a-aa147e2d96c0",
+            "label": "video",
+            "required": true,
+            "type": "video"
+          }
+        },
+        "output": {
+          "text": {
+            "description": "The LLM response",
+            "format": "text",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "The video to analyze",
+              "id": "video_1",
+              "required": true,
+              "title": "video",
+              "validTypes": [
+                "video"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "Fal.ai Model",
+          "name": "openrouter/router/video/enterprise",
+          "service": "fal_imported",
+          "type": "user_defined",
+          "version": "openrouter/router/video/enterprise"
+        },
+        "outputs": [
+          {
+            "dataType": "text",
+            "description": "The LLM response",
+            "id": "text",
+            "title": "Text"
+          }
+        ],
+        "parameters": [
+          [
+            {
+              "constraint": {
+                "options": [
+                  "google/gemini-2.5-flash",
+                  "google/gemini-2.5-flash-lite",
+                  "google/gemini-2.0-flash-001",
+                  "google/gemini-3-flash-preview"
+                ],
+                "type": "enum"
+              },
+              "defaultValue": {
+                "type": "string",
+                "value": "google/gemini-2.5-flash"
+              },
+              "description": "Name of the LLM to use for video understanding",
+              "id": "model",
+              "title": "Model"
+            },
+            {
+              "data": {
+                "type": "string",
+                "value": "google/gemini-2.5-flash"
+              },
+              "type": "value"
+            }
+          ],
+          [
+            {
+              "constraint": {
+                "type": "string"
+              },
+              "defaultValue": {
+                "type": "string",
+                "value": "You are an expert AI video describer. Analyze one or more uploaded videos and generate detailed descriptions that can be used as prompts to recreate them as closely as possible.\n\nIf one video is provided, output a single continuous description with no label. If multiple videos are provided, describe each separately and label them clearly (e.g., \"Video 1\", \"Video 2\"), without merging or comparing them.\n\nFor each video, describe:\n\nMedium and genre (e.g., commercial, vlog, cinematic; realistic, dramatic, instructional)\nCamera and framing (type, position, movement, shot types, pacing, transitions)\nLighting and visual style (lighting conditions, color palette, textures, filters, effects)\nScene composition (setting, background, spatial layout, angles, depth of field)\nCharacters and actions (appearance, movement, gestures of people or objects)\nAtmosphere and mood (purely descriptive tone such as calm, tense, fast-paced, surreal)\n\nOutput as a single continuous descriptive passage per video. Use direct visual language only\u2014no interpretation, opinion, or speculation. Do not include timestamps, bold text, or special characters like (*)."
+              },
+              "description": "Instruction for the model",
+              "id": "prompt",
+              "title": "Model instructions"
+            },
+            {
+              "data": {
+                "type": "string",
+                "value": "You are an expert AI video describer. Analyze one or more uploaded videos and generate detailed descriptions that can be used as prompts to recreate them as closely as possible. First, determine how many videos are provided. If exactly one video is provided: Output a single continuous description. Do NOT include any labels, titles, prefixes, or identifiers (e.g., \u201cVideo 1\u201d). The response must begin directly with the description. If more than one video is provided: Describe each video separately. Prefix each description with \u201cVideo 1\u201d, \u201cVideo 2\u201d, etc. Do not merge or compare videos. For each video, describe: Medium and genre (e.g., commercial, vlog, cinematic; realistic, dramatic, instructional). Camera and framing (type, position, movement, shot types, pacing, transitions). Lighting and visual style (lighting conditions, color palette, textures, filters, effects). Scene composition (setting, background, spatial layout, angles, depth of field). Characters and actions (appearance, movement, gestures of people or objects). Atmosphere and mood (purely descriptive tone such as calm, tense, fast-paced, surreal). Output rules: Each video description must be a single continuous descriptive passage. Use direct visual language only. Do not include interpretation, opinion, or speculation. Do not include timestamps.Do not use bold text or special characters like (*). Never include labels when only one video is provided."
+              },
+              "type": "value"
+            }
+          ]
+        ],
+        "type": "wildcard"
+      },
+      "name": "Video Describer",
+      "nodeType": "custommodelV2",
+      "params": {
+        "max_tokens": 4096,
+        "model": "google/gemini-2.5-flash",
+        "prompt": "You are an expert AI video describer. Analyze one or more uploaded videos and generate detailed descriptions that can be used as prompts to recreate them as closely as possible. First, determine how many videos are provided. If exactly one video is provided: Output a single continuous description. Do NOT include any labels, titles, prefixes, or identifiers (e.g., \u201cVideo 1\u201d). The response must begin directly with the description. If more than one video is provided: Describe each video separately. Prefix each description with \u201cVideo 1\u201d, \u201cVideo 2\u201d, etc. Do not merge or compare videos. For each video, describe: Medium and genre (e.g., commercial, vlog, cinematic; realistic, dramatic, instructional). Camera and framing (type, position, movement, shot types, pacing, transitions). Lighting and visual style (lighting conditions, color palette, textures, filters, effects). Scene composition (setting, background, spatial layout, angles, depth of field). Characters and actions (appearance, movement, gestures of people or objects). Atmosphere and mood (purely descriptive tone such as calm, tense, fast-paced, surreal). Output rules: Each video description must be a single continuous descriptive passage. Use direct visual language only. Do not include interpretation, opinion, or speculation. Do not include timestamps.Do not use bold text or special characters like (*). Never include labels when only one video is provided.",
+        "reasoning": false,
+        "system_prompt": "",
+        "temperature": 1
+      },
+      "schema": {
+        "model": {
+          "default": "google/gemini-2.5-flash",
+          "description": "Name of the LLM to use for video understanding",
+          "options": [
+            "google/gemini-2.5-flash",
+            "google/gemini-2.5-flash-lite",
+            "google/gemini-2.0-flash-001",
+            "google/gemini-3-flash-preview"
+          ],
+          "order": 0,
+          "title": "Model",
+          "type": "enum"
+        },
+        "prompt": {
+          "default": "You are an expert AI video describer. Analyze one or more uploaded videos and generate detailed descriptions that can be used as prompts to recreate them as closely as possible.\n\nIf one video is provided, output a single continuous description with no label. If multiple videos are provided, describe each separately and label them clearly (e.g., \"Video 1\", \"Video 2\"), without merging or comparing them.\n\nFor each video, describe:\n\nMedium and genre (e.g., commercial, vlog, cinematic; realistic, dramatic, instructional)\nCamera and framing (type, position, movement, shot types, pacing, transitions)\nLighting and visual style (lighting conditions, color palette, textures, filters, effects)\nScene composition (setting, background, spatial layout, angles, depth of field)\nCharacters and actions (appearance, movement, gestures of people or objects)\nAtmosphere and mood (purely descriptive tone such as calm, tense, fast-paced, surreal)\n\nOutput as a single continuous descriptive passage per video. Use direct visual language only\u2014no interpretation, opinion, or speculation. Do not include timestamps, bold text, or special characters like (*).",
+          "description": "Instruction for the model",
+          "order": 1,
+          "required": true,
+          "title": "Model instructions",
+          "type": "text"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Analyze audio content and answer questions about what's happening in the audio based on your prompt.",
+        "displayName": "Audio Describer",
+        "icon": "audio_decribe",
+        "id": "170724fd-096b-46a4-b3bb-9aa6ce692be1",
+        "inputTypes": [
+          "audio"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": true,
+        "isVerified": true,
+        "name": "fal-ai/audio-understanding",
+        "order": 8730,
+        "outputTypes": [
+          "text"
+        ],
+        "searchText": "audio describer text_tools audio fal audio understanding fal audio describer",
+        "termsUrls": []
+      },
+      "description": "Analyze audio content and answer questions about what's happening in the audio based on your prompt.",
+      "handles": {
+        "input": {
+          "audio": {
+            "description": "The audio file to analyze",
+            "format": "uri",
+            "id": "cc61e3f0-7813-474c-b9e8-9b16c96477fe",
+            "label": "Audio",
+            "order": 0,
+            "required": true,
+            "type": "audio"
+          }
+        },
+        "output": {
+          "text": {
+            "description": "The LLM response",
+            "format": "text",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "The audio file to analyze",
+              "id": "audio",
+              "required": true,
+              "title": "Audio",
+              "validTypes": [
+                "audio"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "Analyze audio content and answer questions about what's happening in the audio based on your prompt.",
+          "name": "fal-ai/audio-understanding",
+          "service": "fal_imported",
+          "type": "predefined",
+          "version": "fal-ai/audio-understanding"
+        },
+        "outputs": [
+          {
+            "dataType": "text",
+            "description": "The LLM response",
+            "id": "text",
+            "title": "Text"
+          }
+        ],
+        "parameters": [
+          [
+            {
+              "constraint": {
+                "type": "string"
+              },
+              "defaultValue": {
+                "type": "string",
+                "value": "You are an expert audio and video analyst tasked with producing detailed, accurate, and useful descriptions of audio, video, music, speech, vocals, and sound effects.\n\nYour goal is to describe the input in a way that can be used directly as context or as a prompt for audio generation models. Be objective, specific, and descriptive. Focus primarily on what is heard, and when video is provided, include only visual details that help explain or contextualize the audio.\n\nYour description must not exceed 1000 characters.\n\nStart with a brief overview that explicitly states whether the clip contains speech, singing, music, sound effects, ambience, or a combination of these.\n\nIf the input contains speech or singing, prioritize it. Always identify that a person, character, or voice is speaking or singing, describe the voice and delivery, and transcribe the spoken or sung words as accurately as possible. Do not omit the transcript unless the words are unintelligible. If unclear, provide an approximate transcript and mark uncertain words.\n\nDescribe the main audio elements in detail, including genre, mood, tempo, rhythm, instrumentation, vocals, language, accent, tone, pacing, emotion, sound design, ambience, background noise, spatial qualities, dynamics, transitions, and emotional effect.\n\nFor music, mention style, structure, energy level, instruments, vocal qualities, production style, mix, and notable genre references without naming copyrighted artists unless explicitly relevant.\n\nFor speech, describe speaker count, gender presentation if inferable, emotional tone, pacing, clarity, intensity, and conversational context. Include meaningful spoken content whenever possible.\n\nFor sound effects, describe the source, texture, intensity, timing, realism, environment, and possible use case.\n\nUse concrete language that would help recreate a similar sound. Mention timing and progression when relevant, including intros, pauses, impacts, transitions, fades, crescendos, drops, or scene changes.\n\nAvoid speculation beyond what can reasonably be inferred. Do not judge quality unless describing audible production characteristics.\n\nWrite in natural flowing language. Be concise but information-dense. Prioritize the most generation-relevant details."
+              },
+              "description": "The question or prompt about the audio content.",
+              "id": "prompt",
+              "title": "Model instructions"
+            },
+            {
+              "data": {
+                "type": "string",
+                "value": "You are an expert audio and video analyst tasked with producing detailed, accurate, and useful descriptions of audio, video, music, speech, vocals, and sound effects.\n\nYour goal is to describe the input in a way that can be used directly as context or as a prompt for audio generation models. Be objective, specific, and descriptive. Focus primarily on what is heard, and when video is provided, include only visual details that help explain or contextualize the audio.\n\nYour description must not exceed 1000 characters.\n\nStart with a brief overview that explicitly states whether the clip contains speech, singing, music, sound effects, ambience, or a combination of these.\n\nIf the input contains speech or singing, prioritize it. Always identify that a person, character, or voice is speaking or singing, describe the voice and delivery, and transcribe the spoken or sung words as accurately as possible. Do not omit the transcript unless the words are unintelligible. If unclear, provide an approximate transcript and mark uncertain words.\n\nDescribe the main audio elements in detail, including genre, mood, tempo, rhythm, instrumentation, vocals, language, accent, tone, pacing, emotion, sound design, ambience, background noise, spatial qualities, dynamics, transitions, and emotional effect.\n\nFor music, mention style, structure, energy level, instruments, vocal qualities, production style, mix, and notable genre references without naming copyrighted artists unless explicitly relevant.\n\nFor speech, describe speaker count, gender presentation if inferable, emotional tone, pacing, clarity, intensity, and conversational context. Include meaningful spoken content whenever possible.\n\nFor sound effects, describe the source, texture, intensity, timing, realism, environment, and possible use case.\n\nUse concrete language that would help recreate a similar sound. Mention timing and progression when relevant, including intros, pauses, impacts, transitions, fades, crescendos, drops, or scene changes.\n\nAvoid speculation beyond what can reasonably be inferred. Do not judge quality unless describing audible production characteristics.\n\nWrite in natural flowing language. Be concise but information-dense. Prioritize the most generation-relevant details."
+              },
+              "type": "value"
+            }
+          ],
+          [
+            {
+              "constraint": {
+                "type": "boolean"
+              },
+              "defaultValue": {
+                "type": "boolean",
+                "value": false
+              },
+              "description": "Whether to request a more detailed analysis of the audio",
+              "id": "detailed_analysis",
+              "title": "Detailed Analysis"
+            },
+            {
+              "data": {
+                "type": "boolean",
+                "value": false
+              },
+              "type": "value"
+            }
+          ]
+        ],
+        "type": "wildcard"
+      },
+      "name": "Audio Describer",
+      "nodeType": "custommodelV2",
+      "params": {
+        "detailed_analysis": false,
+        "prompt": "You are an expert audio and video analyst tasked with producing detailed, accurate, and useful descriptions of audio, video, music, speech, vocals, and sound effects.\n\nYour goal is to describe the input in a way that can be used directly as context or as a prompt for audio generation models. Be objective, specific, and descriptive. Focus primarily on what is heard, and when video is provided, include only visual details that help explain or contextualize the audio.\n\nYour description must not exceed 1000 characters.\n\nStart with a brief overview that explicitly states whether the clip contains speech, singing, music, sound effects, ambience, or a combination of these.\n\nIf the input contains speech or singing, prioritize it. Always identify that a person, character, or voice is speaking or singing, describe the voice and delivery, and transcribe the spoken or sung words as accurately as possible. Do not omit the transcript unless the words are unintelligible. If unclear, provide an approximate transcript and mark uncertain words.\n\nDescribe the main audio elements in detail, including genre, mood, tempo, rhythm, instrumentation, vocals, language, accent, tone, pacing, emotion, sound design, ambience, background noise, spatial qualities, dynamics, transitions, and emotional effect.\n\nFor music, mention style, structure, energy level, instruments, vocal qualities, production style, mix, and notable genre references without naming copyrighted artists unless explicitly relevant.\n\nFor speech, describe speaker count, gender presentation if inferable, emotional tone, pacing, clarity, intensity, and conversational context. Include meaningful spoken content whenever possible.\n\nFor sound effects, describe the source, texture, intensity, timing, realism, environment, and possible use case.\n\nUse concrete language that would help recreate a similar sound. Mention timing and progression when relevant, including intros, pauses, impacts, transitions, fades, crescendos, drops, or scene changes.\n\nAvoid speculation beyond what can reasonably be inferred. Do not judge quality unless describing audible production characteristics.\n\nWrite in natural flowing language. Be concise but information-dense. Prioritize the most generation-relevant details."
+      },
+      "schema": {
+        "detailed_analysis": {
+          "default": false,
+          "description": "Whether to request a more detailed analysis of the audio",
+          "order": 2,
+          "required": false,
+          "title": "Detailed Analysis",
+          "type": "boolean"
+        },
+        "prompt": {
+          "default": "You are an expert audio and video analyst tasked with producing detailed, accurate, and useful descriptions of audio, video, music, speech, vocals, and sound effects.\n\nYour goal is to describe the input in a way that can be used directly as context or as a prompt for audio generation models. Be objective, specific, and descriptive. Focus primarily on what is heard, and when video is provided, include only visual details that help explain or contextualize the audio.\n\nYour description must not exceed 1000 characters.\n\nStart with a brief overview that explicitly states whether the clip contains speech, singing, music, sound effects, ambience, or a combination of these.\n\nIf the input contains speech or singing, prioritize it. Always identify that a person, character, or voice is speaking or singing, describe the voice and delivery, and transcribe the spoken or sung words as accurately as possible. Do not omit the transcript unless the words are unintelligible. If unclear, provide an approximate transcript and mark uncertain words.\n\nDescribe the main audio elements in detail, including genre, mood, tempo, rhythm, instrumentation, vocals, language, accent, tone, pacing, emotion, sound design, ambience, background noise, spatial qualities, dynamics, transitions, and emotional effect.\n\nFor music, mention style, structure, energy level, instruments, vocal qualities, production style, mix, and notable genre references without naming copyrighted artists unless explicitly relevant.\n\nFor speech, describe speaker count, gender presentation if inferable, emotional tone, pacing, clarity, intensity, and conversational context. Include meaningful spoken content whenever possible.\n\nFor sound effects, describe the source, texture, intensity, timing, realism, environment, and possible use case.\n\nUse concrete language that would help recreate a similar sound. Mention timing and progression when relevant, including intros, pauses, impacts, transitions, fades, crescendos, drops, or scene changes.\n\nAvoid speculation beyond what can reasonably be inferred. Do not judge quality unless describing audible production characteristics.\n\nWrite in natural flowing language. Be concise but information-dense. Prioritize the most generation-relevant details.",
+          "description": "The question or prompt about the audio content.",
+          "order": 1,
+          "required": true,
+          "title": "Model instructions",
+          "type": "text"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Router",
+        "icon": "router",
+        "id": "Pgl8wL2X58uh8ZdehDtUClone",
+        "inputTypes": [
+          "any"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 8810,
+        "outputTypes": [
+          "any"
+        ],
+        "searchText": "router  ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": {
+          "in": {
+            "description": "The input",
+            "id": "xK9mP4nQ7vR2tW5yZ8sL3j",
+            "label": "In",
+            "order": 0,
+            "type": "any"
+          }
+        },
+        "output": {
+          "out": {
+            "description": "The output",
+            "id": "xK9mP4nQ7vR2tW5yZ8sL3K",
+            "label": "Out",
+            "order": 0,
+            "type": "any"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Router",
+      "nodeType": "router",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Output",
+        "icon": "output",
+        "id": "5AuHOOqORKUC7g1hAyOl",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 8910,
+        "outputTypes": [],
+        "searchText": "output  ",
+        "termsUrls": []
+      },
+      "description": null,
+      "handles": {
+        "input": {
+          "workflow": {
+            "description": "Will run the connected workflow",
+            "format": "any",
+            "order": 0,
+            "required": true
+          }
+        },
+        "output": []
+      },
+      "kind": null,
+      "name": "Output",
+      "nodeType": "workflow_output",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 2
+    },
+    {
+      "action": {
+        "description": "Extract depth map of an image using Depth-Anything V2 model",
+        "displayName": "Depth Anything V2",
+        "icon": "depth",
+        "id": "7f47e6ed-6133-474d-a2cb-1fb87cf43e60",
+        "inputTypes": [
+          "image"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isNew": false,
+        "isVerified": true,
+        "name": "fal-ai/image-preprocessors/depth-anything/v2",
+        "order": 9020,
+        "outputTypes": [
+          "image"
+        ],
+        "searchText": "depth anything v2 [depth, z, preprocessor] ",
+        "termsUrls": []
+      },
+      "description": "Extract depth map of an image using Depth-Anything V2 model",
+      "handles": {
+        "input": {
+          "image_url": {
+            "description": "The image to process",
+            "format": "text",
+            "id": "44e1f58b-1887-47c2-b110-4bff70acdd75",
+            "label": "image",
+            "required": true,
+            "type": "image"
+          }
+        },
+        "output": {
+          "result": {
+            "description": "Z-depth map",
+            "format": "uri",
+            "id": "44e1f58b-1887-47c2-b110-4bff70acdd80",
+            "label": "depth map",
+            "order": 0,
+            "type": "image"
+          }
+        }
+      },
+      "kind": {
+        "inputs": [
+          [
+            {
+              "description": "URL of the image to process",
+              "id": "image_url",
+              "required": true,
+              "title": "Image Url",
+              "validTypes": [
+                "image"
+              ]
+            },
+            null
+          ]
+        ],
+        "model": {
+          "description": "Fal.ai Model",
+          "name": "fal-ai/image-preprocessors/depth-anything/v2",
+          "service": "fal_imported",
+          "type": "user_defined",
+          "version": "fal-ai/image-preprocessors/depth-anything/v2"
+        },
+        "outputs": [
+          {
+            "dataType": "image",
+            "description": "Z-depth map",
+            "id": "result",
+            "title": "depth map"
+          }
+        ],
+        "parameters": [],
+        "type": "wildcard"
+      },
+      "name": "Depth Anything V2",
+      "nodeType": "custommodelV2",
+      "params": {
+        "image_url": ""
+      },
+      "schema": {
+        "image_url": {
+          "description": "URL of the image to process",
+          "required": true,
+          "title": "Image Url",
+          "type": "string"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Use this for numeric fields",
+        "displayName": "Number",
+        "icon": "number",
+        "id": "JbQzwNX9qVhHP59o5yS1Clone",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 9110,
+        "outputTypes": [
+          "number"
+        ],
+        "searchText": "number  number integer float",
+        "termsUrls": []
+      },
+      "description": "Use this for numeric fields",
+      "handles": {
+        "output": {
+          "number": {
+            "description": "Number",
+            "format": "number",
+            "id": "Dot9bmnSWmK4MEgqVCU6",
+            "order": 0,
+            "type": "number"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Number",
+      "nodeType": "integer",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Text",
+        "icon": "string",
+        "id": "iB0UfxX3z6c1LCTaLH65Clone",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 9210,
+        "outputTypes": [
+          "text"
+        ],
+        "searchText": "text  string text",
+        "termsUrls": []
+      },
+      "description": "",
+      "handles": {
+        "input": {},
+        "output": {
+          "text": {
+            "description": "Text",
+            "format": "text",
+            "id": "xK9mP2vR8nL4jH7tF5wQ",
+            "order": 0,
+            "type": "text"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Text",
+      "nodeType": "string",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "Toggle",
+        "icon": "boolean",
+        "id": "UpdngxSEck7aHx92LkSgClone",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 9310,
+        "outputTypes": [
+          "boolean"
+        ],
+        "searchText": "toggle  ",
+        "termsUrls": []
+      },
+      "description": "",
+      "handles": {
+        "input": {},
+        "output": {
+          "option": {
+            "description": "The selected option",
+            "format": "boolean",
+            "id": "xK9mP2vR8nL4jH7tF5w12344",
+            "order": 0,
+            "type": "boolean"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Toggle",
+      "nodeType": "boolean",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "",
+        "displayName": "List Selector",
+        "icon": "mux",
+        "id": "K4Bi14QsmaOKQMHpZstoClone",
+        "inputTypes": [
+          "array"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 9410,
+        "outputTypes": [
+          "text"
+        ],
+        "searchText": "list  ",
+        "termsUrls": []
+      },
+      "description": "Select an option from a list",
+      "handles": {
+        "input": {
+          "options": {
+            "description": "Array of options to choose from",
+            "format": "array",
+            "id": "d83d338b-f6c1-4ff2-a160-e81d918995fc",
+            "label": "Options",
+            "order": 0,
+            "required": false,
+            "type": "array"
+          }
+        },
+        "output": {
+          "option": {
+            "description": "The selected option",
+            "format": "text",
+            "id": "xK9mP2vR8nL4jH7tF5wQ123",
+            "label": "Text",
+            "order": 0,
+            "required": false,
+            "type": "text"
+          }
+        }
+      },
+      "kind": null,
+      "name": "List",
+      "nodeType": "muxv2",
+      "params": {
+        "options": []
+      },
+      "schema": {
+        "options": {
+          "description": "Array of options to choose from",
+          "exposed": true,
+          "order": 0,
+          "required": false,
+          "title": "Options",
+          "type": "array"
+        }
+      },
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Use this for numeric fields",
+        "displayName": "Seed",
+        "icon": "seed",
+        "id": "HMTea9nBdmeBeoCAdxvzClone",
+        "inputTypes": [],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 9510,
+        "outputTypes": [
+          "seed"
+        ],
+        "searchText": "seed  ",
+        "termsUrls": []
+      },
+      "description": "Use this for numeric fields",
+      "handles": {
+        "output": {
+          "seed": {
+            "description": "Seed",
+            "format": "seed",
+            "id": "xK9mP2vR8nL4jH7tF5wQ123",
+            "order": 0,
+            "type": "seed"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Seed",
+      "nodeType": "seed",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    },
+    {
+      "action": {
+        "description": "Array of elements",
+        "displayName": "Array",
+        "icon": "array",
+        "id": "E4Lo1vBJYlSjvgs0LtcSClone",
+        "inputTypes": [
+          "text"
+        ],
+        "isByok": false,
+        "isLeaf": true,
+        "isVerified": false,
+        "order": 9610,
+        "outputTypes": [
+          "array"
+        ],
+        "searchText": "array  ",
+        "termsUrls": []
+      },
+      "description": "Array of elements",
+      "handles": {
+        "input": {
+          "text": {
+            "description": "Text to split into array",
+            "format": "text",
+            "id": "Dot9bmnSWmK4MEgqVCU5",
+            "order": 0,
+            "required": false,
+            "type": "text"
+          }
+        },
+        "output": {
+          "array": {
+            "description": "Array of text items",
+            "format": "text",
+            "id": "Dot9bmnSWmK4MEgqVCU6",
+            "order": 0,
+            "type": "array"
+          }
+        }
+      },
+      "kind": null,
+      "name": "Array",
+      "nodeType": "array",
+      "params": null,
+      "schema": null,
+      "status": "ok",
+      "version": 3
+    }
+  ],
+  "successful": 41
+}

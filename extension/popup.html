@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Weavy Bridge</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="mark">W</div>
+        <div><h1>Weavy Bridge</h1><p>Python backend ↔ Chrome</p></div>
+        <span id="version"></span>
+      </header>
+
+      <section id="hero" class="hero waiting">
+        <span id="dot" class="dot"></span>
+        <div><strong id="headline">Checking…</strong><p id="summary">Reading bridge state</p></div>
+      </section>
+
+      <section class="checks">
+        <div><span>Extension</span><b class="good">Ready</b></div>
+        <div><span>Python service</span><b id="daemon">Offline</b></div>
+        <div><span>CLI activity</span><b id="backend">Idle</b></div>
+        <div><span>Weavy tab</span><b id="tab">Not found</b></div>
+        <div><span>Browser control</span><b id="debugger">Not attached</b></div>
+      </section>
+
+      <section id="tab-card" class="tab-card hidden">
+        <strong id="tab-title"></strong>
+        <span id="tab-url"></span>
+      </section>
+
+      <button id="test" class="primary">Test Weavy connection</button>
+      <button id="open">Open Weavy</button>
+
+      <details>
+        <summary>Technical details</summary>
+        <dl>
+          <div><dt>Last command</dt><dd id="last-command">—</dd></div>
+          <div><dt>Last activity</dt><dd id="last-activity">—</dd></div>
+          <div><dt>Current flow</dt><dd id="flow-id">—</dd></div>
+          <div><dt>Local bridge</dt><dd>ws://127.0.0.1:8765</dd></div>
+          <div><dt>Cookie scope</dt><dd>weavy.ai only</dd></div>
+        </dl>
+      </details>
+
+      <p id="message" class="message">Start: python3 -m weavy.bridge_server</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
