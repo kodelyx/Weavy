@@ -1,69 +1,175 @@
-# Weavy Backend Automation
+# Figma Weavy
 
-Clean Python backend for creating and arranging nodes in Weavy AI through a
-thin Chrome extension bridge.
+### The CLI toolkit for automating Weavy AI workflows from Python
 
-## Structure
+[![Python 3](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Manifest_V3-4285F4?logo=googlechrome&logoColor=white)](extension/)
+[![Weavy AI](https://img.shields.io/badge/Weavy-AI_Workflows-7C3AED)](https://app.weavy.ai/)
+[![GitHub stars](https://img.shields.io/github/stars/kodelyx/Weavy?style=social)](https://github.com/kodelyx/Weavy/stargazers)
 
-- `weavy/` — production Python package and CLI.
-- `data/weavy_node_actions.json` — prefetched direct node/model actions.
-- `data/accounts.json` — private local account data; excluded from Git.
+**Figma Weavy** is a modular Python CLI toolkit that controls Weavy AI through
+a lightweight Chrome extension bridge. Create nodes directly, configure
+model-specific settings, connect workflows, upload media, run image generation,
+and download results—without repeatedly searching menus or opening side panels.
 
-## Commands
+> Build Weavy flows like code: fast, repeatable, and ready for AI agents.
+
+## Why Figma Weavy?
+
+- **Direct node creation** — add cached nodes without searching the Weavy UI.
+- **Model-aware settings** — inspect and change settings exposed by each model.
+- **Flow automation** — create, arrange, connect, run, and inspect workflows.
+- **Media pipeline** — upload image, video, or audio files and download results.
+- **Deterministic routing** — target an exact flow with `--flow-id`.
+- **AI-friendly registry** — search a compact index, then load one lazy schema.
+- **No CDP port** — Chrome does not need `--remote-debugging-port=9222`.
+- **Privacy boundaries** — cookie access is restricted to Weavy domains.
+
+## Quick start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kodelyx/Weavy.git
+cd Weavy
+```
+
+### 2. Load the Chrome bridge
+
+1. Open `chrome://extensions`.
+2. Enable **Developer mode**.
+3. Click **Load unpacked** and select the `extension/` directory.
+4. Sign in to [Weavy AI](https://app.weavy.ai/).
+
+### 3. Start the local backend
+
+```bash
+python3 -m weavy.bridge_server
+```
+
+Keep that terminal running. The extension connects on port `8765`; CLI commands
+connect on port `8766`.
+
+### 4. Test the connection
 
 ```bash
 python3 -m weavy.cli bridge-status
 python3 -m weavy.cli inspect
-python3 -m weavy.cli add "ChatGPT Images 2.0"
-python3 -m weavy.cli arrange
-python3 -m weavy.cli connect
-python3 -m weavy.cli settings
-python3 -m weavy.cli set Quality high
-python3 -m weavy.cli refresh-catalog
-python3 -m weavy.cli create-file
-python3 -m weavy.cli generate-image "A cinematic futuristic Indian city" --output data/city.png
-python3 -m weavy.cli refresh-toolbox-schemas
-python3 -m weavy.cli upload-file /absolute/path/to/media.png
-python3 -m weavy.cli refresh-node-schemas
-python3 -m weavy.cli build-node-registry
-python3 -m weavy.cli find-node "high quality image generation" --type image
-python3 -m weavy.cli node-schema "ChatGPT Images 2.0"
-python3 -m weavy.cli add Prompt --flow-id aCQON7a929mNGh7DoHX8gJ
 ```
 
-Chrome does not need a remote-debugging port. Install the thin bridge from
-`extension/`, keep a signed-in Weavy tab open, and run the Python CLI normally.
+## Build your first automated flow
 
-## Chrome extension
+```bash
+# Add nodes directly—no sidebar search
+python3 -m weavy.cli add Prompt
+python3 -m weavy.cli add "ChatGPT Images 2.0"
 
-An install-ready Manifest V3 bridge is in `extension/`. Open
-`chrome://extensions`, enable Developer mode, choose **Load unpacked**, and
-select that folder. Start `python3 -m weavy.bridge_server` manually and keep it
-running while using the CLI. The extension forwards Chrome debugger
-commands/events and Weavy-scoped cookie operations. Nothing is installed as a
-macOS startup service. The extension contains no WASM, catalog or AI.
+# Keep the graph compact and connect its two nodes
+python3 -m weavy.cli arrange
+python3 -m weavy.cli connect
 
-Flow commands accept `--flow-id`. Without it, the bridge reuses its in-memory
-current flow, then an open flow tab, and creates a new flow only when none is
-available. Every browser command returns `flowId`, `flowUrl`, and `result`.
+# Inspect model-specific options and update one
+python3 -m weavy.cli settings
+python3 -m weavy.cli set Quality high
+```
 
-Only one browser-mutating CLI command runs at a time to prevent two requests
-from switching the same Chrome tab concurrently.
+Target an existing Weavy flow explicitly:
 
-## AI/extension node lookup
+```bash
+python3 -m weavy.cli add Prompt --flow-id YOUR_FLOW_ID
+```
 
-Do not send `data/weavy_node_schemas.json` to an AI. It is the full capture used
-only to rebuild derived data. Give the AI `data/weavy_node_index.json`, let it
-select one node id, and then load only that entry's `schemaFile` from
-`data/weavy_nodes/`. The selected detail contains the direct creation action,
-ports, defaults, and model-specific settings.
+Without `--flow-id`, Figma Weavy reuses the current in-memory flow, then an open
+flow tab, and creates a new flow only when none exists.
 
-`data/weavy_ai_contract.json` is the small instruction/tool contract for the AI:
-search first, fetch one schema second, validate, then create/connect/run. The
-155 KB index stays inside the extension and is searched locally; it is not sent
-to the model. Normally the AI sees only 5-8 compact matches and one selected
-schema.
+## CLI toolkit
 
-All browser-side model traffic uses Weavy's `api.weavy.ai` gateway. The compact
-provider report in `data/weavy_api_providers.json` records only explicit
-upstream service metadata; it never mistakes a model owner for an API provider.
+| Goal | Command |
+| --- | --- |
+| Check bridge health | `python3 -m weavy.cli bridge-status` |
+| Inspect the canvas | `python3 -m weavy.cli inspect` |
+| Add a direct node | `python3 -m weavy.cli add "NODE_NAME"` |
+| Arrange nodes compactly | `python3 -m weavy.cli arrange` |
+| Connect two nodes | `python3 -m weavy.cli connect` |
+| Read model settings | `python3 -m weavy.cli settings` |
+| Change a setting | `python3 -m weavy.cli set "LABEL" "VALUE"` |
+| Create a Weavy file | `python3 -m weavy.cli create-file` |
+| Upload media | `python3 -m weavy.cli upload-file /absolute/path/to/media` |
+| Generate an image | `python3 -m weavy.cli generate-image "PROMPT" --output result.png` |
+| Refresh direct actions | `python3 -m weavy.cli refresh-catalog` |
+| Search node capabilities | `python3 -m weavy.cli find-node "text to video" --type video` |
+| Load one node schema | `python3 -m weavy.cli node-schema "Kling 1.6"` |
+| Refresh full schemas | `python3 -m weavy.cli refresh-node-schemas` |
+| Rebuild AI registry | `python3 -m weavy.cli build-node-registry` |
+
+Run `python3 -m weavy.cli --help` for the complete command interface.
+
+## How it works
+
+```text
+Python CLI
+   │  localhost:8766
+   ▼
+Bridge server
+   │  localhost:8765
+   ▼
+Chrome MV3 extension
+   │  debugger access scoped to the selected Weavy tab
+   ▼
+Weavy canvas
+```
+
+The Python backend owns the automation logic. The small Manifest V3 extension
+only transports browser commands and events. There is no Python runtime, WASM,
+model catalog, or AI bundled into the extension.
+
+When a command arrives without an open Weavy tab, the bridge opens Weavy,
+waits for the canvas, and attaches automatically. Browser-mutating commands run
+one at a time to prevent concurrent tab or flow switching.
+
+## AI-agent-ready node registry
+
+Figma Weavy avoids putting a multi-megabyte schema dump into an AI prompt:
+
+1. Search `data/weavy_node_index.json` locally.
+2. Return only a few compact candidates to the AI.
+3. Select one node ID.
+4. Load only its file from `data/weavy_nodes/`.
+5. Validate ports and model settings before creating or connecting the node.
+
+`data/weavy_ai_contract.json` describes this tool flow. The full
+`data/weavy_node_schemas.json` remains a rebuild artifact and should not be sent
+to the model.
+
+## Project structure
+
+```text
+Weavy/
+├── weavy/       # Modular Python backend and CLI
+├── extension/   # Thin Chrome Manifest V3 bridge
+├── data/        # Direct actions, compact index, and lazy node schemas
+└── README.md
+```
+
+## Security and privacy
+
+- Cookies are scoped strictly to `weavy.ai`.
+- Raw CDP cookie commands are blocked.
+- Cookie values are hidden from CLI status output.
+- Webpage-origin WebSocket clients are rejected.
+- Only one local CLI client can mutate the browser at a time.
+- No macOS LaunchAgent, login item, or background startup service is installed.
+- Local `data/accounts.json`, logs, caches, and OS metadata are excluded from Git.
+
+## Notes
+
+This is an independent automation toolkit and is not an official Weavy AI or
+Figma product. Weavy's browser UI and internal behavior may change, so refresh
+the local catalogs when nodes or models are updated.
+
+## Support the project
+
+If Figma Weavy saves you time, **star the repository**, share it with workflow
+builders, and open an issue with ideas or bug reports.
+
+Built by [kodelyx](https://github.com/kodelyx).
